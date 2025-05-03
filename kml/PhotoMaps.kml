@@ -1,0 +1,3425 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="thumb-IMG_20250426_134801192_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250426_134801192_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-04-26</name>
+      <styleUrl>#thumb-IMG_20250426_134801192_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250426_134801192_HDR.jpg" width="400"><br>IMG_20250426_134801192_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.989677,51.03440297222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221002_114346699.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221002_114346699.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-10-02</name>
+      <styleUrl>#thumb-IMG_20221002_114346699.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221002_114346699.jpg" width="400"><br>IMG_20221002_114346699.jpg]]></description>
+      <Point>
+        <coordinates>17.133665527777776,51.08023269444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221113_121804438.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221113_121804438.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-11-13</name>
+      <styleUrl>#thumb-IMG_20221113_121804438.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221113_121804438.jpg" width="400"><br>IMG_20221113_121804438.jpg]]></description>
+      <Point>
+        <coordinates>16.205122916666667,51.39746383333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221113_134044593_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221113_134044593_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-11-13</name>
+      <styleUrl>#thumb-IMG_20221113_134044593_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221113_134044593_HDR.jpg" width="400"><br>IMG_20221113_134044593_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.162437444444443,51.20733036111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230917_112611785_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230917_112611785_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-17</name>
+      <styleUrl>#thumb-IMG_20230917_112611785_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230917_112611785_HDR.jpg" width="400"><br>IMG_20230917_112611785_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.46809213888889,51.261415194444446,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250322_122530636.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250322_122530636.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-03-22</name>
+      <styleUrl>#thumb-IMG_20250322_122530636.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250322_122530636.jpg" width="400"><br>IMG_20250322_122530636.jpg]]></description>
+      <Point>
+        <coordinates>16.844608972222222,51.12127397222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220423_140415872.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220423_140415872.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-04-23</name>
+      <styleUrl>#thumb-IMG_20220423_140415872.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220423_140415872.jpg" width="400"><br>IMG_20220423_140415872.jpg]]></description>
+      <Point>
+        <coordinates>17.04568627777778,51.11560963888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240621_103811647.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240621_103811647.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-06-21</name>
+      <styleUrl>#thumb-IMG_20240621_103811647.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240621_103811647.jpg" width="400"><br>IMG_20240621_103811647.jpg]]></description>
+      <Point>
+        <coordinates>13.679657972222222,51.166276,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20241020_132408823_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20241020_132408823_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-10-20</name>
+      <styleUrl>#thumb-IMG_20241020_132408823_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20241020_132408823_HDR.jpg" width="400"><br>IMG_20241020_132408823_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.073160972222222,51.06356397222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240518_134431859.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240518_134431859.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-05-18</name>
+      <styleUrl>#thumb-IMG_20240518_134431859.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240518_134431859.jpg" width="400"><br>IMG_20240518_134431859.jpg]]></description>
+      <Point>
+        <coordinates>16.67009313888889,51.78855052777777,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220531_120755295.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220531_120755295.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-05-31</name>
+      <styleUrl>#thumb-IMG_20220531_120755295.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220531_120755295.jpg" width="400"><br>IMG_20220531_120755295.jpg]]></description>
+      <Point>
+        <coordinates>16.84744138888889,50.23860908333334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230729_152828912_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230729_152828912_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-07-29</name>
+      <styleUrl>#thumb-IMG_20230729_152828912_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230729_152828912_HDR.jpg" width="400"><br>IMG_20230729_152828912_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.028081666666665,51.106698305555554,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221005_110120650.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221005_110120650.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-10-05</name>
+      <styleUrl>#thumb-IMG_20221005_110120650.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221005_110120650.jpg" width="400"><br>IMG_20221005_110120650.jpg]]></description>
+      <Point>
+        <coordinates>17.062412861111113,51.09604155555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221111_151717317_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221111_151717317_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-11-11</name>
+      <styleUrl>#thumb-IMG_20221111_151717317_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221111_151717317_HDR.jpg" width="400"><br>IMG_20221111_151717317_HDR.jpg]]></description>
+      <Point>
+        <coordinates>19.096943333333332,50.81179913888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220918_170157690~2.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220918_170157690~2.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-09-18</name>
+      <styleUrl>#thumb-IMG_20220918_170157690~2.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220918_170157690~2.jpg" width="400"><br>IMG_20220918_170157690~2.jpg]]></description>
+      <Point>
+        <coordinates>17.045928333333336,51.11408480555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221113_133142300_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221113_133142300_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-11-13</name>
+      <styleUrl>#thumb-IMG_20221113_133142300_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221113_133142300_HDR.jpg" width="400"><br>IMG_20221113_133142300_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.16460297222222,51.20910058333334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220602_163147299.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220602_163147299.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-02</name>
+      <styleUrl>#thumb-IMG_20220602_163147299.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220602_163147299.jpg" width="400"><br>IMG_20220602_163147299.jpg]]></description>
+      <Point>
+        <coordinates>16.280097777777776,50.76526638888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20241027_133128125.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20241027_133128125.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-10-27</name>
+      <styleUrl>#thumb-IMG_20241027_133128125.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20241027_133128125.jpg" width="400"><br>IMG_20241027_133128125.jpg]]></description>
+      <Point>
+        <coordinates>17.077303,51.111277,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250322_141238804.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250322_141238804.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-03-22</name>
+      <styleUrl>#thumb-IMG_20250322_141238804.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250322_141238804.jpg" width="400"><br>IMG_20250322_141238804.jpg]]></description>
+      <Point>
+        <coordinates>16.841742999999997,51.12206197222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221002_123143446.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221002_123143446.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-10-02</name>
+      <styleUrl>#thumb-IMG_20221002_123143446.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221002_123143446.jpg" width="400"><br>IMG_20221002_123143446.jpg]]></description>
+      <Point>
+        <coordinates>17.11465666666667,51.07996105555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250420_114522394.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250420_114522394.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-04-20</name>
+      <styleUrl>#thumb-IMG_20250420_114522394.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250420_114522394.jpg" width="400"><br>IMG_20250420_114522394.jpg]]></description>
+      <Point>
+        <coordinates>16.806620972222223,51.214635,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250330_123510119_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250330_123510119_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-03-30</name>
+      <styleUrl>#thumb-IMG_20250330_123510119_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250330_123510119_HDR.jpg" width="400"><br>IMG_20250330_123510119_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.376799972222223,51.209634972222226,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220530_121719998.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220530_121719998.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-05-30</name>
+      <styleUrl>#thumb-IMG_20220530_121719998.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220530_121719998.jpg" width="400"><br>IMG_20220530_121719998.jpg]]></description>
+      <Point>
+        <coordinates>16.629962694444444,50.45385544444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230930_120636560_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230930_120636560_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-30</name>
+      <styleUrl>#thumb-IMG_20230930_120636560_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230930_120636560_HDR.jpg" width="400"><br>IMG_20230930_120636560_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.918865222222223,50.67012480555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230909_133046918.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230909_133046918.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-09</name>
+      <styleUrl>#thumb-IMG_20230909_133046918.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230909_133046918.jpg" width="400"><br>IMG_20230909_133046918.jpg]]></description>
+      <Point>
+        <coordinates>15.680495888888888,50.86528858333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230818_142146620.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230818_142146620.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-18</name>
+      <styleUrl>#thumb-IMG_20230818_142146620.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230818_142146620.jpg" width="400"><br>IMG_20230818_142146620.jpg]]></description>
+      <Point>
+        <coordinates>15.55375377777778,54.18627880555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220716_124300546_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220716_124300546_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-07-16</name>
+      <styleUrl>#thumb-IMG_20220716_124300546_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220716_124300546_HDR.jpg" width="400"><br>IMG_20220716_124300546_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.026581944444445,51.11299069444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230730_123217942_HDR-edited.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230730_123217942_HDR-edited.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-07-30</name>
+      <styleUrl>#thumb-IMG_20230730_123217942_HDR-edited.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230730_123217942_HDR-edited.jpg" width="400"><br>IMG_20230730_123217942_HDR-edited.jpg]]></description>
+      <Point>
+        <coordinates>17.768508666666666,50.44073425,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250501_150538716.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250501_150538716.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-05-01</name>
+      <styleUrl>#thumb-IMG_20250501_150538716.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250501_150538716.jpg" width="400"><br>IMG_20250501_150538716.jpg]]></description>
+      <Point>
+        <coordinates>16.507412972222223,50.80365597222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230917_113355124_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230917_113355124_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-17</name>
+      <styleUrl>#thumb-IMG_20230917_113355124_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230917_113355124_HDR.jpg" width="400"><br>IMG_20230917_113355124_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.467847083333332,51.26190944444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230917_140002721_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230917_140002721_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-17</name>
+      <styleUrl>#thumb-IMG_20230917_140002721_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230917_140002721_HDR.jpg" width="400"><br>IMG_20230917_140002721_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.720438499999997,51.26182608333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220625_112924123.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220625_112924123.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-25</name>
+      <styleUrl>#thumb-IMG_20220625_112924123.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220625_112924123.jpg" width="400"><br>IMG_20220625_112924123.jpg]]></description>
+      <Point>
+        <coordinates>17.019980083333333,51.094431472222226,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230815_124450625.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230815_124450625.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-15</name>
+      <styleUrl>#thumb-IMG_20230815_124450625.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230815_124450625.jpg" width="400"><br>IMG_20230815_124450625.jpg]]></description>
+      <Point>
+        <coordinates>18.920548472222222,53.73595366666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220530_175043446.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220530_175043446.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-05-30</name>
+      <styleUrl>#thumb-IMG_20220530_175043446.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220530_175043446.jpg" width="400"><br>IMG_20220530_175043446.jpg]]></description>
+      <Point>
+        <coordinates>16.822951222222223,50.25759575,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221031_101115273_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221031_101115273_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-10-31</name>
+      <styleUrl>#thumb-IMG_20221031_101115273_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221031_101115273_HDR.jpg" width="400"><br>IMG_20221031_101115273_HDR.jpg]]></description>
+      <Point>
+        <coordinates>18.6048605,53.010175527777776,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220423_161331765_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220423_161331765_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-04-23</name>
+      <styleUrl>#thumb-IMG_20220423_161331765_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220423_161331765_HDR.jpg" width="400"><br>IMG_20220423_161331765_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.04486591666667,51.116218555555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20241020_124839669_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20241020_124839669_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-10-20</name>
+      <styleUrl>#thumb-IMG_20241020_124839669_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20241020_124839669_HDR.jpg" width="400"><br>IMG_20241020_124839669_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.072444972222222,51.063771,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250322_122441618.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250322_122441618.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-03-22</name>
+      <styleUrl>#thumb-IMG_20250322_122441618.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250322_122441618.jpg" width="400"><br>IMG_20250322_122441618.jpg]]></description>
+      <Point>
+        <coordinates>16.84454797222222,51.121192972222225,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230819_103216534.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230819_103216534.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-19</name>
+      <styleUrl>#thumb-IMG_20230819_103216534.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230819_103216534.jpg" width="400"><br>IMG_20230819_103216534.jpg]]></description>
+      <Point>
+        <coordinates>14.566051305555556,53.43099375,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250322_134700894_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250322_134700894_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-03-22</name>
+      <styleUrl>#thumb-IMG_20250322_134700894_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250322_134700894_HDR.jpg" width="400"><br>IMG_20250322_134700894_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.831751,51.114083972222225,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221009_121722157_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221009_121722157_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-10-09</name>
+      <styleUrl>#thumb-IMG_20221009_121722157_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221009_121722157_HDR.jpg" width="400"><br>IMG_20221009_121722157_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.127255083333335,51.07480263888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240419_113530682.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240419_113530682.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-04-19</name>
+      <styleUrl>#thumb-IMG_20240419_113530682.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240419_113530682.jpg" width="400"><br>IMG_20240419_113530682.jpg]]></description>
+      <Point>
+        <coordinates>16.974623972222222,51.08081258333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250308_122749808.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250308_122749808.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-03-08</name>
+      <styleUrl>#thumb-IMG_20250308_122749808.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250308_122749808.jpg" width="400"><br>IMG_20250308_122749808.jpg]]></description>
+      <Point>
+        <coordinates>17.038669972222223,51.104681972222224,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240519_113249009_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240519_113249009_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-05-19</name>
+      <styleUrl>#thumb-IMG_20240519_113249009_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240519_113249009_HDR.jpg" width="400"><br>IMG_20240519_113249009_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.408468027777776,51.47515469444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240518_142157622.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240518_142157622.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-05-18</name>
+      <styleUrl>#thumb-IMG_20240518_142157622.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240518_142157622.jpg" width="400"><br>IMG_20240518_142157622.jpg]]></description>
+      <Point>
+        <coordinates>16.672014333333333,51.78774980555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230818_141902221_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230818_141902221_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-18</name>
+      <styleUrl>#thumb-IMG_20230818_141902221_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230818_141902221_HDR.jpg" width="400"><br>IMG_20230818_141902221_HDR.jpg]]></description>
+      <Point>
+        <coordinates>15.553620194444443,54.185293277777774,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230819_101438054_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230819_101438054_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-19</name>
+      <styleUrl>#thumb-IMG_20230819_101438054_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230819_101438054_HDR.jpg" width="400"><br>IMG_20230819_101438054_HDR.jpg]]></description>
+      <Point>
+        <coordinates>14.565051972222223,53.429522138888885,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220603_172555131_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220603_172555131_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-03</name>
+      <styleUrl>#thumb-IMG_20220603_172555131_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220603_172555131_HDR.jpg" width="400"><br>IMG_20220603_172555131_HDR.jpg]]></description>
+      <Point>
+        <coordinates>15.663058416666669,51.01733461111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250112_073436624.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250112_073436624.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-01-12</name>
+      <styleUrl>#thumb-IMG_20250112_073436624.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250112_073436624.jpg" width="400"><br>IMG_20250112_073436624.jpg]]></description>
+      <Point>
+        <coordinates>17.036079972222225,51.097065,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230813_110258897.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230813_110258897.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-13</name>
+      <styleUrl>#thumb-IMG_20230813_110258897.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230813_110258897.jpg" width="400"><br>IMG_20230813_110258897.jpg]]></description>
+      <Point>
+        <coordinates>17.998068777777778,53.12258930555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220904_125125695.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220904_125125695.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-09-04</name>
+      <styleUrl>#thumb-IMG_20220904_125125695.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220904_125125695.jpg" width="400"><br>IMG_20220904_125125695.jpg]]></description>
+      <Point>
+        <coordinates>16.395577694444444,50.404541583333334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230814_150503870.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230814_150503870.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-14</name>
+      <styleUrl>#thumb-IMG_20230814_150503870.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230814_150503870.jpg" width="400"><br>IMG_20230814_150503870.jpg]]></description>
+      <Point>
+        <coordinates>19.67627377777778,54.36045430555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250330_123750885.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250330_123750885.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-03-30</name>
+      <styleUrl>#thumb-IMG_20250330_123750885.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250330_123750885.jpg" width="400"><br>IMG_20250330_123750885.jpg]]></description>
+      <Point>
+        <coordinates>17.37779,51.209207972222224,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250330_105110823_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250330_105110823_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-03-30</name>
+      <styleUrl>#thumb-IMG_20250330_105110823_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250330_105110823_HDR.jpg" width="400"><br>IMG_20250330_105110823_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.115407972222222,51.171934,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220605_132346760.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220605_132346760.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-05</name>
+      <styleUrl>#thumb-IMG_20220605_132346760.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220605_132346760.jpg" width="400"><br>IMG_20220605_132346760.jpg]]></description>
+      <Point>
+        <coordinates>17.379122694444444,51.20941369444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230815_102524921.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230815_102524921.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-15</name>
+      <styleUrl>#thumb-IMG_20230815_102524921.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230815_102524921.jpg" width="400"><br>IMG_20230815_102524921.jpg]]></description>
+      <Point>
+        <coordinates>19.028309305555556,54.03865341666666,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220530_125458224_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220530_125458224_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-05-30</name>
+      <styleUrl>#thumb-IMG_20220530_125458224_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220530_125458224_HDR.jpg" width="400"><br>IMG_20220530_125458224_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.631857694444445,50.45401766666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220605_130204921.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220605_130204921.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-05</name>
+      <styleUrl>#thumb-IMG_20220605_130204921.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220605_130204921.jpg" width="400"><br>IMG_20220605_130204921.jpg]]></description>
+      <Point>
+        <coordinates>17.376884,51.20893955555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230505_125125546.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230505_125125546.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-05</name>
+      <styleUrl>#thumb-IMG_20230505_125125546.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230505_125125546.jpg" width="400"><br>IMG_20230505_125125546.jpg]]></description>
+      <Point>
+        <coordinates>16.798318333333334,51.00662075,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230903_135523929.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230903_135523929.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-03</name>
+      <styleUrl>#thumb-IMG_20230903_135523929.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230903_135523929.jpg" width="400"><br>IMG_20230903_135523929.jpg]]></description>
+      <Point>
+        <coordinates>16.809569694444445,50.58889627777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220618_134720173.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220618_134720173.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-18</name>
+      <styleUrl>#thumb-IMG_20220618_134720173.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220618_134720173.jpg" width="400"><br>IMG_20220618_134720173.jpg]]></description>
+      <Point>
+        <coordinates>15.83419788888889,50.79867519444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240116_114505479_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240116_114505479_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-01-16</name>
+      <styleUrl>#thumb-IMG_20240116_114505479_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240116_114505479_HDR.jpg" width="400"><br>IMG_20240116_114505479_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.024832194444443,51.10712852777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230917_133243011.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230917_133243011.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-17</name>
+      <styleUrl>#thumb-IMG_20230917_133243011.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230917_133243011.jpg" width="400"><br>IMG_20230917_133243011.jpg]]></description>
+      <Point>
+        <coordinates>16.723492555555556,51.25972616666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240714_113502692_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240714_113502692_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-07-14</name>
+      <styleUrl>#thumb-IMG_20240714_113502692_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240714_113502692_HDR.jpg" width="400"><br>IMG_20240714_113502692_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.859408972222223,51.149254972222224,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230416_125629534.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230416_125629534.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-04-16</name>
+      <styleUrl>#thumb-IMG_20230416_125629534.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230416_125629534.jpg" width="400"><br>IMG_20230416_125629534.jpg]]></description>
+      <Point>
+        <coordinates>16.410436999999998,50.749195972222225,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221111_145700862_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221111_145700862_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-11-11</name>
+      <styleUrl>#thumb-IMG_20221111_145700862_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221111_145700862_HDR.jpg" width="400"><br>IMG_20221111_145700862_HDR.jpg]]></description>
+      <Point>
+        <coordinates>19.09747158333333,50.8121185,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220716_124452201_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220716_124452201_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-07-16</name>
+      <styleUrl>#thumb-IMG_20220716_124452201_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220716_124452201_HDR.jpg" width="400"><br>IMG_20220716_124452201_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.026369499999998,51.113235333333336,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220612_104206712.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220612_104206712.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-12</name>
+      <styleUrl>#thumb-IMG_20220612_104206712.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220612_104206712.jpg" width="400"><br>IMG_20220612_104206712.jpg]]></description>
+      <Point>
+        <coordinates>17.08727613888889,51.160097666666665,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250117_162501693.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250117_162501693.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-01-17</name>
+      <styleUrl>#thumb-IMG_20250117_162501693.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250117_162501693.jpg" width="400"><br>IMG_20250117_162501693.jpg]]></description>
+      <Point>
+        <coordinates>21.003519,52.23091197222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220601_173143183.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220601_173143183.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-01</name>
+      <styleUrl>#thumb-IMG_20220601_173143183.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220601_173143183.jpg" width="400"><br>IMG_20220601_173143183.jpg]]></description>
+      <Point>
+        <coordinates>16.641956277777776,50.57346452777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20241020_171356395.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20241020_171356395.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-10-20</name>
+      <styleUrl>#thumb-IMG_20241020_171356395.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20241020_171356395.jpg" width="400"><br>IMG_20241020_171356395.jpg]]></description>
+      <Point>
+        <coordinates>16.943189,51.103389972222224,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230507_132624664.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230507_132624664.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-07</name>
+      <styleUrl>#thumb-IMG_20230507_132624664.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230507_132624664.jpg" width="400"><br>IMG_20230507_132624664.jpg]]></description>
+      <Point>
+        <coordinates>15.433641277777776,51.33645419444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250420_115713196_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250420_115713196_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-04-20</name>
+      <styleUrl>#thumb-IMG_20250420_115713196_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250420_115713196_HDR.jpg" width="400"><br>IMG_20250420_115713196_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.794914972222223,51.197909,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230909_125928453_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230909_125928453_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-09</name>
+      <styleUrl>#thumb-IMG_20230909_125928453_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230909_125928453_HDR.jpg" width="400"><br>IMG_20230909_125928453_HDR.jpg]]></description>
+      <Point>
+        <coordinates>15.682571194444444,50.865186111111115,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221111_145205323_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221111_145205323_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-11-11</name>
+      <styleUrl>#thumb-IMG_20221111_145205323_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221111_145205323_HDR.jpg" width="400"><br>IMG_20221111_145205323_HDR.jpg]]></description>
+      <Point>
+        <coordinates>19.096154388888888,50.81221483333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230813_135757215_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230813_135757215_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-13</name>
+      <styleUrl>#thumb-IMG_20230813_135757215_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230813_135757215_HDR.jpg" width="400"><br>IMG_20230813_135757215_HDR.jpg]]></description>
+      <Point>
+        <coordinates>18.015471694444443,53.12087994444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220602_133509878_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220602_133509878_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-02</name>
+      <styleUrl>#thumb-IMG_20220602_133509878_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220602_133509878_HDR.jpg" width="400"><br>IMG_20220602_133509878_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.35861977777778,50.71257430555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220707_172935963_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220707_172935963_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-07-07</name>
+      <styleUrl>#thumb-IMG_20220707_172935963_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220707_172935963_HDR.jpg" width="400"><br>IMG_20220707_172935963_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.040314583333334,51.11366158333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220716_110457788.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220716_110457788.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-07-16</name>
+      <styleUrl>#thumb-IMG_20220716_110457788.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220716_110457788.jpg" width="400"><br>IMG_20220716_110457788.jpg]]></description>
+      <Point>
+        <coordinates>17.03179388888889,51.10955669444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20241026_141816371.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20241026_141816371.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-10-26</name>
+      <styleUrl>#thumb-IMG_20241026_141816371.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20241026_141816371.jpg" width="400"><br>IMG_20241026_141816371.jpg]]></description>
+      <Point>
+        <coordinates>17.009934,51.075311972222224,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220602_165010600.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220602_165010600.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-02</name>
+      <styleUrl>#thumb-IMG_20220602_165010600.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220602_165010600.jpg" width="400"><br>IMG_20220602_165010600.jpg]]></description>
+      <Point>
+        <coordinates>16.279903694444442,50.76549888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20241229_131336258.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20241229_131336258.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-12-29</name>
+      <styleUrl>#thumb-IMG_20241229_131336258.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20241229_131336258.jpg" width="400"><br>IMG_20241229_131336258.jpg]]></description>
+      <Point>
+        <coordinates>16.961670972222223,51.109357,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220702_114141148.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220702_114141148.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-07-02</name>
+      <styleUrl>#thumb-IMG_20220702_114141148.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220702_114141148.jpg" width="400"><br>IMG_20220702_114141148.jpg]]></description>
+      <Point>
+        <coordinates>17.094641277777775,51.15748705555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230502_164604578_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230502_164604578_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-02</name>
+      <styleUrl>#thumb-IMG_20230502_164604578_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230502_164604578_HDR.jpg" width="400"><br>IMG_20230502_164604578_HDR.jpg]]></description>
+      <Point>
+        <coordinates>20.31950336111111,49.42174677777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220601_135811564.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220601_135811564.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-01</name>
+      <styleUrl>#thumb-IMG_20220601_135811564.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220601_135811564.jpg" width="400"><br>IMG_20220601_135811564.jpg]]></description>
+      <Point>
+        <coordinates>16.244684305555555,50.44241222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221113_120904995.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221113_120904995.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-11-13</name>
+      <styleUrl>#thumb-IMG_20221113_120904995.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221113_120904995.jpg" width="400"><br>IMG_20221113_120904995.jpg]]></description>
+      <Point>
+        <coordinates>16.203535777777777,51.39713808333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230815_114650138_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230815_114650138_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-15</name>
+      <styleUrl>#thumb-IMG_20230815_114650138_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230815_114650138_HDR.jpg" width="400"><br>IMG_20230815_114650138_HDR.jpg]]></description>
+      <Point>
+        <coordinates>18.923167777777778,53.736276277777776,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250322_122918566_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250322_122918566_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-03-22</name>
+      <styleUrl>#thumb-IMG_20250322_122918566_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250322_122918566_HDR.jpg" width="400"><br>IMG_20250322_122918566_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.844670999999998,51.120851,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250501_152057501_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250501_152057501_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-05-01</name>
+      <styleUrl>#thumb-IMG_20250501_152057501_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250501_152057501_HDR.jpg" width="400"><br>IMG_20250501_152057501_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.508435972222223,50.80316797222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220604_122310322_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220604_122310322_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-04</name>
+      <styleUrl>#thumb-IMG_20220604_122310322_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220604_122310322_HDR.jpg" width="400"><br>IMG_20220604_122310322_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.29103377777778,50.842178583333336,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230501_145316282_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230501_145316282_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-01</name>
+      <styleUrl>#thumb-IMG_20230501_145316282_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230501_145316282_HDR.jpg" width="400"><br>IMG_20230501_145316282_HDR.jpg]]></description>
+      <Point>
+        <coordinates>19.864368444444445,49.24029358333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250420_114333711.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250420_114333711.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-04-20</name>
+      <styleUrl>#thumb-IMG_20250420_114333711.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250420_114333711.jpg" width="400"><br>IMG_20250420_114333711.jpg]]></description>
+      <Point>
+        <coordinates>16.806132972222223,51.214421972222226,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230416_135119036_BURST000_COVER_TOP.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230416_135119036_BURST000_COVER_TOP.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-04-16</name>
+      <styleUrl>#thumb-IMG_20230416_135119036_BURST000_COVER_TOP.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230416_135119036_BURST000_COVER_TOP.jpg" width="400"><br>IMG_20230416_135119036_BURST000_COVER_TOP.jpg]]></description>
+      <Point>
+        <coordinates>16.41058111111111,50.749426416666665,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221113_133550454_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221113_133550454_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-11-13</name>
+      <styleUrl>#thumb-IMG_20221113_133550454_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221113_133550454_HDR.jpg" width="400"><br>IMG_20221113_133550454_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.164851388888888,51.20964611111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220602_125112531.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220602_125112531.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-02</name>
+      <styleUrl>#thumb-IMG_20220602_125112531.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220602_125112531.jpg" width="400"><br>IMG_20220602_125112531.jpg]]></description>
+      <Point>
+        <coordinates>16.494133027777778,50.62779488888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230901_140123056_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230901_140123056_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-01</name>
+      <styleUrl>#thumb-IMG_20230901_140123056_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230901_140123056_HDR.jpg" width="400"><br>IMG_20230901_140123056_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.193582055555556,51.19299038888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250420_115823681_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250420_115823681_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-04-20</name>
+      <styleUrl>#thumb-IMG_20250420_115823681_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250420_115823681_HDR.jpg" width="400"><br>IMG_20250420_115823681_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.794914972222223,51.197909,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250501_123137190.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250501_123137190.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-05-01</name>
+      <styleUrl>#thumb-IMG_20250501_123137190.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250501_123137190.jpg" width="400"><br>IMG_20250501_123137190.jpg]]></description>
+      <Point>
+        <coordinates>16.708113972222222,50.88706497222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250330_130542550.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250330_130542550.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-03-30</name>
+      <styleUrl>#thumb-IMG_20250330_130542550.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250330_130542550.jpg" width="400"><br>IMG_20250330_130542550.jpg]]></description>
+      <Point>
+        <coordinates>17.374047972222222,51.207867,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20241010_181205988_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20241010_181205988_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-10-10</name>
+      <styleUrl>#thumb-IMG_20241010_181205988_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20241010_181205988_HDR.jpg" width="400"><br>IMG_20241010_181205988_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.976949972222222,51.05568097222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230815_194039386.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230815_194039386.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-15</name>
+      <styleUrl>#thumb-IMG_20230815_194039386.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230815_194039386.jpg" width="400"><br>IMG_20230815_194039386.jpg]]></description>
+      <Point>
+        <coordinates>19.39077208333333,54.15893783333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240824_121403296_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240824_121403296_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-08-24</name>
+      <styleUrl>#thumb-IMG_20240824_121403296_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240824_121403296_HDR.jpg" width="400"><br>IMG_20240824_121403296_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.858363,50.710456,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250419_131630938.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250419_131630938.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-04-19</name>
+      <styleUrl>#thumb-IMG_20250419_131630938.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250419_131630938.jpg" width="400"><br>IMG_20250419_131630938.jpg]]></description>
+      <Point>
+        <coordinates>17.074298972222223,51.05765097222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230816_124119235_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230816_124119235_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-16</name>
+      <styleUrl>#thumb-IMG_20230816_124119235_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230816_124119235_HDR.jpg" width="400"><br>IMG_20230816_124119235_HDR.jpg]]></description>
+      <Point>
+        <coordinates>18.569712944444444,54.44602594444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230416_130335358.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230416_130335358.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-04-16</name>
+      <styleUrl>#thumb-IMG_20230416_130335358.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230416_130335358.jpg" width="400"><br>IMG_20230416_130335358.jpg]]></description>
+      <Point>
+        <coordinates>16.410460916666665,50.749231583333334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230730_123217942_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230730_123217942_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-07-30</name>
+      <styleUrl>#thumb-IMG_20230730_123217942_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230730_123217942_HDR.jpg" width="400"><br>IMG_20230730_123217942_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.768508666666666,50.44073425,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230501_102931511.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230501_102931511.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-01</name>
+      <styleUrl>#thumb-IMG_20230501_102931511.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230501_102931511.jpg" width="400"><br>IMG_20230501_102931511.jpg]]></description>
+      <Point>
+        <coordinates>20.095246305555555,49.32964886111112,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240309_132357794.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240309_132357794.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-03-09</name>
+      <styleUrl>#thumb-IMG_20240309_132357794.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240309_132357794.jpg" width="400"><br>IMG_20240309_132357794.jpg]]></description>
+      <Point>
+        <coordinates>16.869808583333334,51.146892888888885,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221031_102501468.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221031_102501468.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-10-31</name>
+      <styleUrl>#thumb-IMG_20221031_102501468.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221031_102501468.jpg" width="400"><br>IMG_20221031_102501468.jpg]]></description>
+      <Point>
+        <coordinates>18.605250694444447,53.01018769444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220531_094729494_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220531_094729494_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-05-31</name>
+      <styleUrl>#thumb-IMG_20220531_094729494_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220531_094729494_HDR.jpg" width="400"><br>IMG_20220531_094729494_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.852024,50.24080077777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221031_102243990.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221031_102243990.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-10-31</name>
+      <styleUrl>#thumb-IMG_20221031_102243990.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221031_102243990.jpg" width="400"><br>IMG_20221031_102243990.jpg]]></description>
+      <Point>
+        <coordinates>18.605326083333335,53.01037647222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230814_124358528.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230814_124358528.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-14</name>
+      <styleUrl>#thumb-IMG_20230814_124358528.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230814_124358528.jpg" width="400"><br>IMG_20230814_124358528.jpg]]></description>
+      <Point>
+        <coordinates>19.680975,54.356646000000005,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230815_192928796_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230815_192928796_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-15</name>
+      <styleUrl>#thumb-IMG_20230815_192928796_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230815_192928796_HDR.jpg" width="400"><br>IMG_20230815_192928796_HDR.jpg]]></description>
+      <Point>
+        <coordinates>19.39253130555555,54.158150194444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250215_132813902.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250215_132813902.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-02-15</name>
+      <styleUrl>#thumb-IMG_20250215_132813902.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250215_132813902.jpg" width="400"><br>IMG_20250215_132813902.jpg]]></description>
+      <Point>
+        <coordinates>17.044115972222222,51.108508972222225,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250322_125107737.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250322_125107737.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-03-22</name>
+      <styleUrl>#thumb-IMG_20250322_125107737.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250322_125107737.jpg" width="400"><br>IMG_20250322_125107737.jpg]]></description>
+      <Point>
+        <coordinates>16.844196999999998,51.12142,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220602_154116691_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220602_154116691_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-02</name>
+      <styleUrl>#thumb-IMG_20220602_154116691_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220602_154116691_HDR.jpg" width="400"><br>IMG_20220602_154116691_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.28015811111111,50.765134777777774,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230816_090835857.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230816_090835857.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-16</name>
+      <styleUrl>#thumb-IMG_20230816_090835857.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230816_090835857.jpg" width="400"><br>IMG_20230816_090835857.jpg]]></description>
+      <Point>
+        <coordinates>18.678190722222222,54.407546555555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230814_152735314_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230814_152735314_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-14</name>
+      <styleUrl>#thumb-IMG_20230814_152735314_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230814_152735314_HDR.jpg" width="400"><br>IMG_20230814_152735314_HDR.jpg]]></description>
+      <Point>
+        <coordinates>19.680299,54.358153305555554,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220601_122443632_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220601_122443632_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-01</name>
+      <styleUrl>#thumb-IMG_20220601_122443632_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220601_122443632_HDR.jpg" width="400"><br>IMG_20220601_122443632_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.383549944444443,50.39365347222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220618_101631325.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220618_101631325.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-18</name>
+      <styleUrl>#thumb-IMG_20220618_101631325.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220618_101631325.jpg" width="400"><br>IMG_20220618_101631325.jpg]]></description>
+      <Point>
+        <coordinates>15.496888138888888,50.813953999999995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230815_200809110.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230815_200809110.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-15</name>
+      <styleUrl>#thumb-IMG_20230815_200809110.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230815_200809110.jpg" width="400"><br>IMG_20230815_200809110.jpg]]></description>
+      <Point>
+        <coordinates>19.396218833333332,54.15792966666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230416_132559098.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230416_132559098.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-04-16</name>
+      <styleUrl>#thumb-IMG_20230416_132559098.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230416_132559098.jpg" width="400"><br>IMG_20230416_132559098.jpg]]></description>
+      <Point>
+        <coordinates>16.404399777777776,50.75193947222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240406_122219638.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240406_122219638.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-04-06</name>
+      <styleUrl>#thumb-IMG_20240406_122219638.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240406_122219638.jpg" width="400"><br>IMG_20240406_122219638.jpg]]></description>
+      <Point>
+        <coordinates>16.775880722222222,51.03463988888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230818_142709985_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230818_142709985_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-18</name>
+      <styleUrl>#thumb-IMG_20230818_142709985_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230818_142709985_HDR.jpg" width="400"><br>IMG_20230818_142709985_HDR.jpg]]></description>
+      <Point>
+        <coordinates>15.553546972222223,54.186529416666666,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230903_134907348.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230903_134907348.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-03</name>
+      <styleUrl>#thumb-IMG_20230903_134907348.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230903_134907348.jpg" width="400"><br>IMG_20230903_134907348.jpg]]></description>
+      <Point>
+        <coordinates>16.811037972222223,50.5890805,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230909_125812469_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230909_125812469_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-09</name>
+      <styleUrl>#thumb-IMG_20230909_125812469_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230909_125812469_HDR.jpg" width="400"><br>IMG_20230909_125812469_HDR.jpg]]></description>
+      <Point>
+        <coordinates>15.683898694444444,50.86511,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230814_150457309.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230814_150457309.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-14</name>
+      <styleUrl>#thumb-IMG_20230814_150457309.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230814_150457309.jpg" width="400"><br>IMG_20230814_150457309.jpg]]></description>
+      <Point>
+        <coordinates>19.67627377777778,54.36045430555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20241218_082431825_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20241218_082431825_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-12-18</name>
+      <styleUrl>#thumb-IMG_20241218_082431825_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20241218_082431825_HDR.jpg" width="400"><br>IMG_20241218_082431825_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.03044797222222,51.109634972222224,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230507_120417027.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230507_120417027.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-07</name>
+      <styleUrl>#thumb-IMG_20230507_120417027.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230507_120417027.jpg" width="400"><br>IMG_20230507_120417027.jpg]]></description>
+      <Point>
+        <coordinates>15.433880333333333,51.336698000000005,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220604_115918679.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220604_115918679.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-04</name>
+      <styleUrl>#thumb-IMG_20220604_115918679.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220604_115918679.jpg" width="400"><br>IMG_20220604_115918679.jpg]]></description>
+      <Point>
+        <coordinates>16.291698472222222,50.8424605,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240519_111852521_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240519_111852521_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-05-19</name>
+      <styleUrl>#thumb-IMG_20240519_111852521_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240519_111852521_HDR.jpg" width="400"><br>IMG_20240519_111852521_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.361705194444447,51.47077977777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240922_112436991_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240922_112436991_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-09-22</name>
+      <styleUrl>#thumb-IMG_20240922_112436991_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240922_112436991_HDR.jpg" width="400"><br>IMG_20240922_112436991_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.11868397222222,51.10273897222223,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220602_125107042.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220602_125107042.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-02</name>
+      <styleUrl>#thumb-IMG_20220602_125107042.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220602_125107042.jpg" width="400"><br>IMG_20220602_125107042.jpg]]></description>
+      <Point>
+        <coordinates>16.494133027777778,50.62779488888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220904_121616090_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220904_121616090_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-09-04</name>
+      <styleUrl>#thumb-IMG_20220904_121616090_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220904_121616090_HDR.jpg" width="400"><br>IMG_20220904_121616090_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.396084972222223,50.40454111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220618_135447339.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220618_135447339.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-18</name>
+      <styleUrl>#thumb-IMG_20220618_135447339.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220618_135447339.jpg" width="400"><br>IMG_20220618_135447339.jpg]]></description>
+      <Point>
+        <coordinates>15.834229194444443,50.798585805555554,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240116_114505479_HDR-edited.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240116_114505479_HDR-edited.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-01-16</name>
+      <styleUrl>#thumb-IMG_20240116_114505479_HDR-edited.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240116_114505479_HDR-edited.jpg" width="400"><br>IMG_20240116_114505479_HDR-edited.jpg]]></description>
+      <Point>
+        <coordinates>17.024832194444443,51.10712852777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240428_124544460_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240428_124544460_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-04-28</name>
+      <styleUrl>#thumb-IMG_20240428_124544460_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240428_124544460_HDR.jpg" width="400"><br>IMG_20240428_124544460_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.0334435,51.11387369444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230917_133302133.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230917_133302133.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-17</name>
+      <styleUrl>#thumb-IMG_20230917_133302133.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230917_133302133.jpg" width="400"><br>IMG_20230917_133302133.jpg]]></description>
+      <Point>
+        <coordinates>16.723492555555556,51.25972616666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230814_135743658.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230814_135743658.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-14</name>
+      <styleUrl>#thumb-IMG_20230814_135743658.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230814_135743658.jpg" width="400"><br>IMG_20230814_135743658.jpg]]></description>
+      <Point>
+        <coordinates>19.682410055555557,54.356462944444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230903_132922883_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230903_132922883_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-03</name>
+      <styleUrl>#thumb-IMG_20230903_132922883_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230903_132922883_HDR.jpg" width="400"><br>IMG_20230903_132922883_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.72835033333333,50.50179188888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230502_172905346_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230502_172905346_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-02</name>
+      <styleUrl>#thumb-IMG_20230502_172905346_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230502_172905346_HDR.jpg" width="400"><br>IMG_20230502_172905346_HDR.jpg]]></description>
+      <Point>
+        <coordinates>20.319740555555555,49.42121083333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230110_133925983_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230110_133925983_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-01-10</name>
+      <styleUrl>#thumb-IMG_20230110_133925983_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230110_133925983_HDR.jpg" width="400"><br>IMG_20230110_133925983_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.576529,50.514689583333336,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230817_191755779.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230817_191755779.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-17</name>
+      <styleUrl>#thumb-IMG_20230817_191755779.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230817_191755779.jpg" width="400"><br>IMG_20230817_191755779.jpg]]></description>
+      <Point>
+        <coordinates>18.41706038888889,54.72367094444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220423_141207878_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220423_141207878_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-04-23</name>
+      <styleUrl>#thumb-IMG_20220423_141207878_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220423_141207878_HDR.jpg" width="400"><br>IMG_20220423_141207878_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.044643611111113,51.11563866666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221112_152317580_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221112_152317580_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-11-12</name>
+      <styleUrl>#thumb-IMG_20221112_152317580_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221112_152317580_HDR.jpg" width="400"><br>IMG_20221112_152317580_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.65540358333333,50.438300777777776,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220603_160120119.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220603_160120119.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-03</name>
+      <styleUrl>#thumb-IMG_20220603_160120119.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220603_160120119.jpg" width="400"><br>IMG_20220603_160120119.jpg]]></description>
+      <Point>
+        <coordinates>15.686957083333333,50.93278519444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250420_110243132.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250420_110243132.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-04-20</name>
+      <styleUrl>#thumb-IMG_20250420_110243132.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250420_110243132.jpg" width="400"><br>IMG_20250420_110243132.jpg]]></description>
+      <Point>
+        <coordinates>16.815678972222223,51.110477,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250418_102424286_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250418_102424286_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-04-18</name>
+      <styleUrl>#thumb-IMG_20250418_102424286_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250418_102424286_HDR.jpg" width="400"><br>IMG_20250418_102424286_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.97651897222222,51.083123972222225,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230826_122412959.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230826_122412959.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-26</name>
+      <styleUrl>#thumb-IMG_20230826_122412959.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230826_122412959.jpg" width="400"><br>IMG_20230826_122412959.jpg]]></description>
+      <Point>
+        <coordinates>16.473767083333332,51.26447,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250421_124045197.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250421_124045197.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-04-21</name>
+      <styleUrl>#thumb-IMG_20250421_124045197.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250421_124045197.jpg" width="400"><br>IMG_20250421_124045197.jpg]]></description>
+      <Point>
+        <coordinates>16.997585972222222,51.052132,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220603_162449121.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220603_162449121.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-03</name>
+      <styleUrl>#thumb-IMG_20220603_162449121.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220603_162449121.jpg" width="400"><br>IMG_20220603_162449121.jpg]]></description>
+      <Point>
+        <coordinates>15.684946805555557,50.93532613888888,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230901_132849207.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230901_132849207.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-01</name>
+      <styleUrl>#thumb-IMG_20230901_132849207.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230901_132849207.jpg" width="400"><br>IMG_20230901_132849207.jpg]]></description>
+      <Point>
+        <coordinates>17.136963277777777,51.19763797222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230722_114404856.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230722_114404856.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-07-22</name>
+      <styleUrl>#thumb-IMG_20230722_114404856.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230722_114404856.jpg" width="400"><br>IMG_20230722_114404856.jpg]]></description>
+      <Point>
+        <coordinates>17.195615305555556,51.19298077777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230930_120629336_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230930_120629336_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-30</name>
+      <styleUrl>#thumb-IMG_20230930_120629336_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230930_120629336_HDR.jpg" width="400"><br>IMG_20230930_120629336_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.918865222222223,50.67012480555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230817_181232637.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230817_181232637.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-17</name>
+      <styleUrl>#thumb-IMG_20230817_181232637.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230817_181232637.jpg" width="400"><br>IMG_20230817_181232637.jpg]]></description>
+      <Point>
+        <coordinates>18.416972194444444,54.72360930555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220807_124203252.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220807_124203252.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-08-07</name>
+      <styleUrl>#thumb-IMG_20220807_124203252.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220807_124203252.jpg" width="400"><br>IMG_20220807_124203252.jpg]]></description>
+      <Point>
+        <coordinates>17.13215988888889,51.18312669444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230507_135208201_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230507_135208201_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-07</name>
+      <styleUrl>#thumb-IMG_20230507_135208201_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230507_135208201_HDR.jpg" width="400"><br>IMG_20230507_135208201_HDR.jpg]]></description>
+      <Point>
+        <coordinates>15.434927166666666,51.33617466666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220603_174111921.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220603_174111921.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-03</name>
+      <styleUrl>#thumb-IMG_20220603_174111921.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220603_174111921.jpg" width="400"><br>IMG_20220603_174111921.jpg]]></description>
+      <Point>
+        <coordinates>15.662978833333334,51.01717883333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230416_134239499.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230416_134239499.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-04-16</name>
+      <styleUrl>#thumb-IMG_20230416_134239499.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230416_134239499.jpg" width="400"><br>IMG_20230416_134239499.jpg]]></description>
+      <Point>
+        <coordinates>16.41079988888889,50.74980952777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240720_125213178.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240720_125213178.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-07-20</name>
+      <styleUrl>#thumb-IMG_20240720_125213178.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240720_125213178.jpg" width="400"><br>IMG_20240720_125213178.jpg]]></description>
+      <Point>
+        <coordinates>16.965035,51.158781999999995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250426_121648520_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250426_121648520_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-04-26</name>
+      <styleUrl>#thumb-IMG_20250426_121648520_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250426_121648520_HDR.jpg" width="400"><br>IMG_20250426_121648520_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.990065972222222,51.034234999999995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250426_134206179_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250426_134206179_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-04-26</name>
+      <styleUrl>#thumb-IMG_20250426_134206179_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250426_134206179_HDR.jpg" width="400"><br>IMG_20250426_134206179_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.989063972222223,51.035454,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220904_133643342_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220904_133643342_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-09-04</name>
+      <styleUrl>#thumb-IMG_20220904_133643342_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220904_133643342_HDR.jpg" width="400"><br>IMG_20220904_133643342_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.39563575,50.40439713888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250322_124241957_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250322_124241957_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-03-22</name>
+      <styleUrl>#thumb-IMG_20250322_124241957_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250322_124241957_HDR.jpg" width="400"><br>IMG_20250322_124241957_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.843768999999998,51.120308972222226,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220531_114535.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220531_114535.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-05-31</name>
+      <styleUrl>#thumb-IMG_20220531_114535.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220531_114535.jpg" width="400"><br>IMG_20220531_114535.jpg]]></description>
+      <Point>
+        <coordinates>16.84258611111111,50.234475,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220605_125857194.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220605_125857194.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-05</name>
+      <styleUrl>#thumb-IMG_20220605_125857194.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220605_125857194.jpg" width="400"><br>IMG_20220605_125857194.jpg]]></description>
+      <Point>
+        <coordinates>17.37707922222222,51.20916861111112,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230430_162405384_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230430_162405384_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-04-30</name>
+      <styleUrl>#thumb-IMG_20230430_162405384_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230430_162405384_HDR.jpg" width="400"><br>IMG_20230430_162405384_HDR.jpg]]></description>
+      <Point>
+        <coordinates>19.887897888888887,49.27757805555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230504_123746794.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230504_123746794.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-04</name>
+      <styleUrl>#thumb-IMG_20230504_123746794.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230504_123746794.jpg" width="400"><br>IMG_20230504_123746794.jpg]]></description>
+      <Point>
+        <coordinates>16.934737527777777,52.40622761111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220531_101111.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220531_101111.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-05-31</name>
+      <styleUrl>#thumb-IMG_20220531_101111.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220531_101111.jpg" width="400"><br>IMG_20220531_101111.jpg]]></description>
+      <Point>
+        <coordinates>16.845330555555556,50.23573888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240518_135352338_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240518_135352338_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-05-18</name>
+      <styleUrl>#thumb-IMG_20240518_135352338_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240518_135352338_HDR.jpg" width="400"><br>IMG_20240518_135352338_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.67067136111111,51.78801944444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220530_121307724_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220530_121307724_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-05-30</name>
+      <styleUrl>#thumb-IMG_20220530_121307724_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220530_121307724_HDR.jpg" width="400"><br>IMG_20220530_121307724_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.629643055555555,50.45398197222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230502_165726920_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230502_165726920_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-02</name>
+      <styleUrl>#thumb-IMG_20230502_165726920_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230502_165726920_HDR.jpg" width="400"><br>IMG_20230502_165726920_HDR.jpg]]></description>
+      <Point>
+        <coordinates>20.321606944444444,49.420120999999995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220605_120216884.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220605_120216884.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-05</name>
+      <styleUrl>#thumb-IMG_20220605_120216884.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220605_120216884.jpg" width="400"><br>IMG_20220605_120216884.jpg]]></description>
+      <Point>
+        <coordinates>17.376819055555558,51.21059311111112,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250501_123252967.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250501_123252967.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-05-01</name>
+      <styleUrl>#thumb-IMG_20250501_123252967.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250501_123252967.jpg" width="400"><br>IMG_20250501_123252967.jpg]]></description>
+      <Point>
+        <coordinates>16.708069972222223,50.887143,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230817_192936227.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230817_192936227.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-17</name>
+      <styleUrl>#thumb-IMG_20230817_192936227.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230817_192936227.jpg" width="400"><br>IMG_20230817_192936227.jpg]]></description>
+      <Point>
+        <coordinates>18.41700552777778,54.72383497222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230813_112007925_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230813_112007925_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-13</name>
+      <styleUrl>#thumb-IMG_20230813_112007925_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230813_112007925_HDR.jpg" width="400"><br>IMG_20230813_112007925_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.99622791666667,53.121675333333336,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230504_130510533.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230504_130510533.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-04</name>
+      <styleUrl>#thumb-IMG_20230504_130510533.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230504_130510533.jpg" width="400"><br>IMG_20230504_130510533.jpg]]></description>
+      <Point>
+        <coordinates>16.930449055555556,52.408681055555554,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230819_103434355_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230819_103434355_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-19</name>
+      <styleUrl>#thumb-IMG_20230819_103434355_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230819_103434355_HDR.jpg" width="400"><br>IMG_20230819_103434355_HDR.jpg]]></description>
+      <Point>
+        <coordinates>14.566461277777778,53.430974194444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230110_133950936_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230110_133950936_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-01-10</name>
+      <styleUrl>#thumb-IMG_20230110_133950936_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230110_133950936_HDR.jpg" width="400"><br>IMG_20230110_133950936_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.57658161111111,50.514127583333334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230815_124519564.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230815_124519564.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-15</name>
+      <styleUrl>#thumb-IMG_20230815_124519564.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230815_124519564.jpg" width="400"><br>IMG_20230815_124519564.jpg]]></description>
+      <Point>
+        <coordinates>18.92066575,53.73605769444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240519_114225420.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240519_114225420.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-05-19</name>
+      <styleUrl>#thumb-IMG_20240519_114225420.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240519_114225420.jpg" width="400"><br>IMG_20240519_114225420.jpg]]></description>
+      <Point>
+        <coordinates>17.410854527777776,51.477367,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20221113_123620488_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20221113_123620488_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-11-13</name>
+      <styleUrl>#thumb-IMG_20221113_123620488_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20221113_123620488_HDR.jpg" width="400"><br>IMG_20221113_123620488_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.208480944444442,51.39600780555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220603_141018009.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220603_141018009.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-03</name>
+      <styleUrl>#thumb-IMG_20220603_141018009.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220603_141018009.jpg" width="400"><br>IMG_20220603_141018009.jpg]]></description>
+      <Point>
+        <coordinates>15.736971694444444,50.90287519444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230814_133640135.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230814_133640135.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-14</name>
+      <styleUrl>#thumb-IMG_20230814_133640135.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230814_133640135.jpg" width="400"><br>IMG_20230814_133640135.jpg]]></description>
+      <Point>
+        <coordinates>19.682567972222223,54.355219777777776,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230826_124112267.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230826_124112267.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-26</name>
+      <styleUrl>#thumb-IMG_20230826_124112267.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230826_124112267.jpg" width="400"><br>IMG_20230826_124112267.jpg]]></description>
+      <Point>
+        <coordinates>16.469625777777775,51.261545472222224,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240714_125407337_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240714_125407337_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-07-14</name>
+      <styleUrl>#thumb-IMG_20240714_125407337_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240714_125407337_HDR.jpg" width="400"><br>IMG_20240714_125407337_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.819344,51.238891,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220531_130347013.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220531_130347013.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-05-31</name>
+      <styleUrl>#thumb-IMG_20220531_130347013.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220531_130347013.jpg" width="400"><br>IMG_20220531_130347013.jpg]]></description>
+      <Point>
+        <coordinates>16.88165838888889,50.27446419444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230903_134914801.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230903_134914801.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-03</name>
+      <styleUrl>#thumb-IMG_20230903_134914801.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230903_134914801.jpg" width="400"><br>IMG_20230903_134914801.jpg]]></description>
+      <Point>
+        <coordinates>16.811037972222223,50.5890805,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250330_123724927.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250330_123724927.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-03-30</name>
+      <styleUrl>#thumb-IMG_20250330_123724927.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250330_123724927.jpg" width="400"><br>IMG_20250330_123724927.jpg]]></description>
+      <Point>
+        <coordinates>17.377752,51.209335,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230903_152142760.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230903_152142760.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-03</name>
+      <styleUrl>#thumb-IMG_20230903_152142760.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230903_152142760.jpg" width="400"><br>IMG_20230903_152142760.jpg]]></description>
+      <Point>
+        <coordinates>16.856520722222225,50.71210902777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220531_112851453.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220531_112851453.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-05-31</name>
+      <styleUrl>#thumb-IMG_20220531_112851453.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220531_112851453.jpg" width="400"><br>IMG_20220531_112851453.jpg]]></description>
+      <Point>
+        <coordinates>16.84268858333333,50.23455638888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230502_164734200.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230502_164734200.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-02</name>
+      <styleUrl>#thumb-IMG_20230502_164734200.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230502_164734200.jpg" width="400"><br>IMG_20230502_164734200.jpg]]></description>
+      <Point>
+        <coordinates>20.319044527777777,49.422094277777774,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220603_155330878.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220603_155330878.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-03</name>
+      <styleUrl>#thumb-IMG_20220603_155330878.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220603_155330878.jpg" width="400"><br>IMG_20220603_155330878.jpg]]></description>
+      <Point>
+        <coordinates>15.687582277777778,50.9313645,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220530_174452856.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220530_174452856.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-05-30</name>
+      <styleUrl>#thumb-IMG_20220530_174452856.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220530_174452856.jpg" width="400"><br>IMG_20220530_174452856.jpg]]></description>
+      <Point>
+        <coordinates>16.822951222222223,50.25759575,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220531_095035182_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220531_095035182_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-05-31</name>
+      <styleUrl>#thumb-IMG_20220531_095035182_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220531_095035182_HDR.jpg" width="400"><br>IMG_20220531_095035182_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.852024,50.24080077777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230815_122134770.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230815_122134770.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-15</name>
+      <styleUrl>#thumb-IMG_20230815_122134770.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230815_122134770.jpg" width="400"><br>IMG_20230815_122134770.jpg]]></description>
+      <Point>
+        <coordinates>18.921664472222226,53.74077469444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230816_133423783.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230816_133423783.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-16</name>
+      <styleUrl>#thumb-IMG_20230816_133423783.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230816_133423783.jpg" width="400"><br>IMG_20230816_133423783.jpg]]></description>
+      <Point>
+        <coordinates>18.62779925,54.462448138888895,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230909_130100155.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230909_130100155.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-09</name>
+      <styleUrl>#thumb-IMG_20230909_130100155.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230909_130100155.jpg" width="400"><br>IMG_20230909_130100155.jpg]]></description>
+      <Point>
+        <coordinates>15.681188777777775,50.86508119444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230817_171807667.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230817_171807667.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-17</name>
+      <styleUrl>#thumb-IMG_20230817_171807667.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230817_171807667.jpg" width="400"><br>IMG_20230817_171807667.jpg]]></description>
+      <Point>
+        <coordinates>18.41163961111111,54.72272530555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240406_123916259.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240406_123916259.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-04-06</name>
+      <styleUrl>#thumb-IMG_20240406_123916259.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240406_123916259.jpg" width="400"><br>IMG_20240406_123916259.jpg]]></description>
+      <Point>
+        <coordinates>16.777136388888888,51.03262591666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220531_125005.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220531_125005.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-05-31</name>
+      <styleUrl>#thumb-IMG_20220531_125005.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220531_125005.jpg" width="400"><br>IMG_20220531_125005.jpg]]></description>
+      <Point>
+        <coordinates>16.852027777777778,50.24203055555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230826_125802256.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230826_125802256.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-26</name>
+      <styleUrl>#thumb-IMG_20230826_125802256.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230826_125802256.jpg" width="400"><br>IMG_20230826_125802256.jpg]]></description>
+      <Point>
+        <coordinates>16.46999658333333,51.2624635,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230722_111718952_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230722_111718952_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-07-22</name>
+      <styleUrl>#thumb-IMG_20230722_111718952_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230722_111718952_HDR.jpg" width="400"><br>IMG_20230722_111718952_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.19473375,51.19231644444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230815_102414382.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230815_102414382.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-15</name>
+      <styleUrl>#thumb-IMG_20230815_102414382.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230815_102414382.jpg" width="400"><br>IMG_20230815_102414382.jpg]]></description>
+      <Point>
+        <coordinates>19.029182694444444,54.04058069444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230903_135308927_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230903_135308927_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-09-03</name>
+      <styleUrl>#thumb-IMG_20230903_135308927_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230903_135308927_HDR.jpg" width="400"><br>IMG_20230903_135308927_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.81024477777778,50.58885638888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20241015_191523993.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20241015_191523993.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-10-15</name>
+      <styleUrl>#thumb-IMG_20241015_191523993.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20241015_191523993.jpg" width="400"><br>IMG_20241015_191523993.jpg]]></description>
+      <Point>
+        <coordinates>16.952382,51.112012972222225,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220603_154230188.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220603_154230188.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-03</name>
+      <styleUrl>#thumb-IMG_20220603_154230188.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220603_154230188.jpg" width="400"><br>IMG_20220603_154230188.jpg]]></description>
+      <Point>
+        <coordinates>15.686081777777778,50.93497372222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20250330_125415404.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20250330_125415404.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2025-03-30</name>
+      <styleUrl>#thumb-IMG_20250330_125415404.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20250330_125415404.jpg" width="400"><br>IMG_20250330_125415404.jpg]]></description>
+      <Point>
+        <coordinates>17.369035,51.207698972222225,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220528_154931142.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220528_154931142.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-05-28</name>
+      <styleUrl>#thumb-IMG_20220528_154931142.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220528_154931142.jpg" width="400"><br>IMG_20220528_154931142.jpg]]></description>
+      <Point>
+        <coordinates>14.824228638888888,50.87038425,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220605_141919202.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220605_141919202.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-05</name>
+      <styleUrl>#thumb-IMG_20220605_141919202.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220605_141919202.jpg" width="400"><br>IMG_20220605_141919202.jpg]]></description>
+      <Point>
+        <coordinates>17.37956763888889,51.20989466666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230816_151026441.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230816_151026441.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-08-16</name>
+      <styleUrl>#thumb-IMG_20230816_151026441.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230816_151026441.jpg" width="400"><br>IMG_20230816_151026441.jpg]]></description>
+      <Point>
+        <coordinates>18.57252658333333,54.44679647222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230507_135535334.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230507_135535334.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-07</name>
+      <styleUrl>#thumb-IMG_20230507_135535334.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230507_135535334.jpg" width="400"><br>IMG_20230507_135535334.jpg]]></description>
+      <Point>
+        <coordinates>15.435966361111111,51.337429166666666,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220807_132207348.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220807_132207348.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-08-07</name>
+      <styleUrl>#thumb-IMG_20220807_132207348.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220807_132207348.jpg" width="400"><br>IMG_20220807_132207348.jpg]]></description>
+      <Point>
+        <coordinates>17.14684336111111,51.178441416666665,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230501_161613300.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230501_161613300.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-01</name>
+      <styleUrl>#thumb-IMG_20230501_161613300.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230501_161613300.jpg" width="400"><br>IMG_20230501_161613300.jpg]]></description>
+      <Point>
+        <coordinates>19.86378325,49.242744916666666,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220603_170631605_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220603_170631605_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-03</name>
+      <styleUrl>#thumb-IMG_20220603_170631605_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220603_170631605_HDR.jpg" width="400"><br>IMG_20220603_170631605_HDR.jpg]]></description>
+      <Point>
+        <coordinates>15.66299763888889,51.01635016666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240831_122905034_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240831_122905034_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-08-31</name>
+      <styleUrl>#thumb-IMG_20240831_122905034_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240831_122905034_HDR.jpg" width="400"><br>IMG_20240831_122905034_HDR.jpg]]></description>
+      <Point>
+        <coordinates>15.542301,50.829571,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220603_173738915_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220603_173738915_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-03</name>
+      <styleUrl>#thumb-IMG_20220603_173738915_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220603_173738915_HDR.jpg" width="400"><br>IMG_20220603_173738915_HDR.jpg]]></description>
+      <Point>
+        <coordinates>15.662952222222222,51.01761236111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220603_171129803_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220603_171129803_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-03</name>
+      <styleUrl>#thumb-IMG_20220603_171129803_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220603_171129803_HDR.jpg" width="400"><br>IMG_20220603_171129803_HDR.jpg]]></description>
+      <Point>
+        <coordinates>15.66318525,51.017187416666665,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230528_110724209.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230528_110724209.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-28</name>
+      <styleUrl>#thumb-IMG_20230528_110724209.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230528_110724209.jpg" width="400"><br>IMG_20230528_110724209.jpg]]></description>
+      <Point>
+        <coordinates>17.127231472222224,51.11652977777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230528_111644158.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230528_111644158.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-28</name>
+      <styleUrl>#thumb-IMG_20230528_111644158.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230528_111644158.jpg" width="400"><br>IMG_20230528_111644158.jpg]]></description>
+      <Point>
+        <coordinates>17.110705666666668,51.11518405555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220807_121602908.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220807_121602908.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-08-07</name>
+      <styleUrl>#thumb-IMG_20220807_121602908.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220807_121602908.jpg" width="400"><br>IMG_20220807_121602908.jpg]]></description>
+      <Point>
+        <coordinates>17.119333333333334,51.17189455555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240406_121916344.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240406_121916344.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-04-06</name>
+      <styleUrl>#thumb-IMG_20240406_121916344.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240406_121916344.jpg" width="400"><br>IMG_20240406_121916344.jpg]]></description>
+      <Point>
+        <coordinates>16.77517472222222,51.03340661111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20231029_130215090_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20231029_130215090_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-10-29</name>
+      <styleUrl>#thumb-IMG_20231029_130215090_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20231029_130215090_HDR.jpg" width="400"><br>IMG_20231029_130215090_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.947560194444446,51.110337333333334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220423_160030103.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220423_160030103.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-04-23</name>
+      <styleUrl>#thumb-IMG_20220423_160030103.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220423_160030103.jpg" width="400"><br>IMG_20220423_160030103.jpg]]></description>
+      <Point>
+        <coordinates>17.048058083333334,51.11668233333334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230505_161116282_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230505_161116282_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-05</name>
+      <styleUrl>#thumb-IMG_20230505_161116282_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230505_161116282_HDR.jpg" width="400"><br>IMG_20230505_161116282_HDR.jpg]]></description>
+      <Point>
+        <coordinates>16.795514500000003,51.19760180555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20230507_120007741_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230507_120007741_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2023-05-07</name>
+      <styleUrl>#thumb-IMG_20230507_120007741_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20230507_120007741_HDR.jpg" width="400"><br>IMG_20230507_120007741_HDR.jpg]]></description>
+      <Point>
+        <coordinates>15.433729472222222,51.33624725,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20240519_131426013_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20240519_131426013_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2024-05-19</name>
+      <styleUrl>#thumb-IMG_20240519_131426013_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20240519_131426013_HDR.jpg" width="400"><br>IMG_20240519_131426013_HDR.jpg]]></description>
+      <Point>
+        <coordinates>17.35097355555556,51.47968180555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Style id="thumb-IMG_20220603_174105220_HDR.jpg">
+      <IconStyle>
+        <Icon>
+          <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20220603_174105220_HDR.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>2022-06-03</name>
+      <styleUrl>#thumb-IMG_20220603_174105220_HDR.jpg</styleUrl>
+      <description><![CDATA[<img src="https://mloktionov.github.io/PhotoMaps/images/IMG_20220603_174105220_HDR.jpg" width="400"><br>IMG_20220603_174105220_HDR.jpg]]></description>
+      <Point>
+        <coordinates>15.662952222222222,51.01761236111111,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
