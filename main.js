@@ -44,6 +44,7 @@ async function initMap() {
 
     const marker = L.marker([lat, lon], { icon });
     marker.options.photoYear = year;
+    marker.options.photoDate = `${month}-${day}`;
 
     const imgPath = `images/${fname}`;
     const popupHTML = `
@@ -62,6 +63,11 @@ async function initMap() {
   });
 
   createYearFilter(data);
+
+  document.getElementById("caption-search").addEventListener("input", (e) => {
+    const query = e.target.value.trim();
+    filterByCaption(query);
+  });
 }
 
 function createYearFilter(data) {
@@ -95,7 +101,12 @@ function createYearFilter(data) {
 
   function updateMarkers() {
     allMarkers.forEach(marker => {
-      marker.setOpacity(currentYear === null || marker.options.photoYear === currentYear ? 1 : 0);
+      const match = currentYear === null || marker.options.photoYear === currentYear;
+      if (match) {
+        marker.addTo(map);
+      } else {
+        map.removeLayer(marker);
+      }
     });
   }
 
@@ -109,6 +120,20 @@ function createYearFilter(data) {
       if (target) target.classList.add("active");
     }
   }
+}
+
+function filterByCaption(query) {
+  const normQuery = query.toLowerCase();
+
+  allMarkers.forEach(marker => {
+    const date = marker.options.photoDate || "";
+    const isMatch = date.startsWith(normQuery);
+    if (isMatch) {
+      marker.addTo(map);
+    } else {
+      map.removeLayer(marker);
+    }
+  });
 }
 
 function applyTileLayer() {
