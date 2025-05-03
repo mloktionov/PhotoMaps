@@ -1,3 +1,5 @@
+// === main.js ===
+
 const CSV_PATH = "csv/photos.csv";
 const THUMBNAIL_PATH = "thumbnails/";
 const ICON_SIZE = [32, 32];
@@ -13,8 +15,7 @@ const yearColors = {
   "2024": "#fd79a8", "2025": "#636e72"
 };
 
-let map, currentYear = null;
-let allMarkers = [];
+let map, allMarkers = [];
 
 async function initMap() {
   map = L.map("map").setView([51.5, 19.0], 6);
@@ -23,13 +24,6 @@ async function initMap() {
   const response = await fetch(CSV_PATH);
   const csv = await response.text();
   const data = Papa.parse(csv, { header: true }).data;
-
-  // Сортировка от новых к старым
-  data.sort((a, b) => {
-    const da = new Date(`${a.year}-${a.month}-${a.day}`);
-    const db = new Date(`${b.year}-${b.month}-${b.day}`);
-    return db - da;
-  });
 
   data.forEach(row => {
     const lat = parseFloat(row.latitude);
@@ -48,13 +42,12 @@ async function initMap() {
     });
 
     const marker = L.marker([lat, lon], { icon });
+    marker.options.photoDate = `${year}-${month}-${day}`;
     marker.options.photoYear = year;
-    marker.options.caption = `${month}-${day}`;
 
-    const imgPath = `images/${fname}`;
     const popupHTML = `
       <div class="popup-box">
-        <img src="${imgPath}" class="popup-img" />
+        <img src="images/${fname}" class="popup-img" />
         <div class="popup-caption">${month}-${day}</div>
       </div>`;
 
@@ -68,14 +61,7 @@ async function initMap() {
   });
 
   createYearFilter(data);
-
-  const search = document.getElementById("caption-search");
-  if (search) {
-    search.addEventListener("input", (e) => {
-      const query = e.target.value.trim();
-      filterByCaption(query);
-    });
-  }
+  setupDateSearch();
 }
 
 function createYearFilter(data) {
@@ -88,9 +74,8 @@ function createYearFilter(data) {
   container.appendChild(allBtn);
 
   allBtn.addEventListener("click", () => {
-    currentYear = null;
     updateMarkers();
-    updateButtons();
+    updateButtons(null);
   });
 
   years.forEach(year => {
@@ -101,28 +86,57 @@ function createYearFilter(data) {
     container.appendChild(btn);
 
     btn.addEventListener("click", () => {
-      currentYear = year;
-      updateMarkers();
-      updateButtons();
+      updateMarkers(year);
+      updateButtons(year);
     });
   });
 
-  function updateMarkers() {
+  function updateMarkers(selectedYear = null) {
     allMarkers.forEach(marker => {
-      marker.setOpacity(currentYear === null || marker.options.photoYear === currentYear ? 1 : 0);
+      const show = !selectedYear || marker.options.photoYear === selectedYear;
+      marker.setOpacity(show ? 1 : 0);
     });
   }
 
-  function updateButtons() {
+  function updateButtons(activeYear) {
     const buttons = container.querySelectorAll(".year-button");
-    buttons.forEach(b => b.classList.remove("active"));
-    if (currentYear === null) {
-      allBtn.classList.add("active");
-    } else {
-      const target = [...buttons].find(b => b.textContent === currentYear);
-      if (target) target.classList.add("active");
-    }
+    buttons.forEach(btn => btn.classList.remove("active"));
+    const target = [...buttons].find(b => b.textContent === (activeYear || "Все"));
+    if (target) target.classList.add("active");
   }
+}
+
+function setupDateSearch() {
+  const input = document.getElementById("caption-search");
+  if (!input) return;
+
+  input.addEventListener("input", () => {
+    const query = input.value.trim();
+    filterByDateQuery(query);
+  });
+}
+
+function filterByDateQuery(query) {
+  allMarkers.forEach(marker => {
+    const popup = marker.getPopup();
+    if (!popup) return;
+
+    const content = popup.getContent();
+    const match = content.match(/(\d{2})-(\d{2})/);
+    if (!match) return;
+
+    const [ , month, day ] = match;
+    const fullDate = `${marker.options.photoYear}${month}${day}`;
+
+    if (
+      query === "" ||
+      fullDate.includes(query)
+    ) {
+      marker.setOpacity(1);
+    } else {
+      marker.setOpacity(0);
+    }
+  });
 }
 
 function applyTileLayer() {
@@ -132,12 +146,9 @@ function applyTileLayer() {
   }).addTo(map);
 }
 
-function filterByCaption(query) {
-  const normQuery = query.trim().toLowerCase();
-  allMarkers.forEach(marker => {
-    const caption = marker.options.caption.toLowerCase();
-    marker.setOpacity(caption.includes(normQuery) ? 1 : 0);
-  });
-}
+document.getElementById("caption-search").addEventListener("input", (e) => {
+  const query = e.target.value.trim();
+  filterByDateQuery(query);
+});
 
 initMap();
