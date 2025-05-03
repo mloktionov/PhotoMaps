@@ -1,3 +1,4 @@
+/* 🌍 Основной контейнер */
 html, body {
   margin: 0;
   padding: 0;
@@ -17,57 +18,7 @@ html, body {
   object-fit: cover;
 }
 
-/* 🧭 Всплывающее окно */
-.leaflet-popup-content-wrapper {
-  background: rgba(230, 240, 255, 0.6);
-  border-radius: 10px;
-  padding: 0;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
-  max-width: none !important;
-}
-
-.leaflet-popup-content {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0.6em;
-}
-
-.popup-img {
-  width: auto;
-  height: auto;
-  max-width: 300px;
-  max-height: 300px;
-  border-radius: 8px;
-  box-shadow: 0 0 4px rgba(0,0,0,0.4);
-  display: block;
-}
-
-.popup-caption {
-  margin-top: 0.4em;
-  font-size: 0.9em;
-  color: #333;
-}
-
-/* 📱 Адаптивность */
-@media (max-width: 600px) {
-  .popup-img {
-    max-width: 90vw;
-    max-height: 50vh;
-  }
-
-  .popup-caption {
-    font-size: 0.85em;
-    text-align: center;
-  }
-
-  .leaflet-popup-content {
-    padding: 0.5em;
-  }
-}
-
-/* 🧰 Тулбар */
+/* 🧰 Тулбар справа */
 #sidebar-toolbar {
   position: fixed;
   top: 0;
@@ -94,6 +45,7 @@ html, body {
   margin-bottom: 1em;
 }
 
+/* 🎯 Фильтр по годам */
 #year-filter {
   display: flex;
   flex-direction: column;
@@ -115,4 +67,54 @@ html, body {
 
 .year-button.active {
   outline: 2px solid #000;
+}
+
+.leaflet-popup-content-wrapper {
+  background: rgba(240, 248, 255, 0.8); /* светло-голубой */
+  border-radius: 12px;
+  padding: 0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  max-width: none !important;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  padding: 0.6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto !important;
+}
+
+.popup-img {
+  display: block;
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.4);
+}
+
+.popup-caption {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  color: #333;
+}
+
+/* 📱 Адаптивный попап для телефонов */
+@media (max-width: 600px) {
+  .popup-img {
+    max-width: 90vw;
+    max-height: 50vh;
+  }
+
+  .leaflet-popup-content {
+    padding: 0.4em;
+  }
+
+  .popup-caption {
+    font-size: 0.85em;
+    text-align: center;
+  }
 }
