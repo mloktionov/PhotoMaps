@@ -14,8 +14,22 @@
 <body>
 
   <div id="sidebar-toolbar">
-    <input type="text" id="caption-search" placeholder="mm-dd" />
-    <div id="year-filter"></div>
+    <div id="date-filters">
+      <label for="filter-year">Год</label>
+      <select id="filter-year">
+        <option value="">—</option>
+      </select>
+
+      <label for="filter-month">Месяц</label>
+      <select id="filter-month">
+        <option value="">—</option>
+      </select>
+
+      <label for="filter-day">День</label>
+      <select id="filter-day">
+        <option value="">—</option>
+      </select>
+    </div>      
   </div>
 
   <div id="map"></div>

@@ -26,6 +26,10 @@ async function initMap() {
   const csv = await response.text();
   const data = Papa.parse(csv, { header: true }).data;
 
+  const yearSet = new Set();
+  const monthSet = new Set();
+  const daySet = new Set();
+
   data.forEach(row => {
     const lat = parseFloat(row.latitude);
     const lon = parseFloat(row.longitude);
@@ -44,7 +48,6 @@ async function initMap() {
 
     const marker = L.marker([lat, lon], { icon });
     marker.options.photoYear = year;
-    marker.options.photoDate = `${month}-${day}`;
 
     const imgPath = `images/${fname}`;
     const popupHTML = `
@@ -60,80 +63,13 @@ async function initMap() {
 
     marker.addTo(map);
     allMarkers.push(marker);
+
+    yearSet.add(year);
+    monthSet.add(month);
+    daySet.add(day);
   });
 
-  createYearFilter(data);
-
-  document.getElementById("caption-search").addEventListener("input", (e) => {
-    const query = e.target.value.trim();
-    filterByCaption(query);
-  });
-}
-
-function createYearFilter(data) {
-  const container = document.getElementById("year-filter");
-  const years = [...new Set(data.map(d => d.year))].sort();
-
-  const allBtn = document.createElement("div");
-  allBtn.textContent = "Все";
-  allBtn.classList.add("year-button", "active");
-  container.appendChild(allBtn);
-
-  allBtn.addEventListener("click", () => {
-    currentYear = null;
-    updateMarkers();
-    updateButtons();
-  });
-
-  years.forEach(year => {
-    const btn = document.createElement("div");
-    btn.textContent = year;
-    btn.classList.add("year-button");
-    btn.style.backgroundColor = yearColors[year] || "#999";
-    container.appendChild(btn);
-
-    btn.addEventListener("click", () => {
-      currentYear = year;
-      updateMarkers();
-      updateButtons();
-    });
-  });
-
-  function updateMarkers() {
-    allMarkers.forEach(marker => {
-      const match = currentYear === null || marker.options.photoYear === currentYear;
-      if (match) {
-        marker.addTo(map);
-      } else {
-        map.removeLayer(marker);
-      }
-    });
-  }
-
-  function updateButtons() {
-    const buttons = container.querySelectorAll(".year-button");
-    buttons.forEach(b => b.classList.remove("active"));
-    if (currentYear === null) {
-      allBtn.classList.add("active");
-    } else {
-      const target = [...buttons].find(b => b.textContent === currentYear);
-      if (target) target.classList.add("active");
-    }
-  }
-}
-
-function filterByCaption(query) {
-  const normQuery = query.toLowerCase();
-
-  allMarkers.forEach(marker => {
-    const date = marker.options.photoDate || "";
-    const isMatch = date.startsWith(normQuery);
-    if (isMatch) {
-      marker.addTo(map);
-    } else {
-      map.removeLayer(marker);
-    }
-  });
+  populateDateFilters([...yearSet], [...monthSet], [...daySet]);
 }
 
 function applyTileLayer() {
@@ -141,6 +77,63 @@ function applyTileLayer() {
     maxZoom: 19,
     attribution: "&copy; OpenStreetMap"
   }).addTo(map);
+}
+
+function populateDateFilters(years, months, days) {
+  const yearSel = document.getElementById("filter-year");
+  const monthSel = document.getElementById("filter-month");
+  const daySel = document.getElementById("filter-day");
+
+  // сортировка по возрастанию
+  years.sort().forEach(y => {
+    const opt = document.createElement("option");
+    opt.value = y;
+    opt.textContent = y;
+    yearSel.appendChild(opt);
+  });
+
+  months.sort().forEach(m => {
+    const opt = document.createElement("option");
+    opt.value = m;
+    opt.textContent = m;
+    monthSel.appendChild(opt);
+  });
+
+  days.sort().forEach(d => {
+    const opt = document.createElement("option");
+    opt.value = d;
+    opt.textContent = d;
+    daySel.appendChild(opt);
+  });
+
+  // 📆 Обработчик фильтров
+  [yearSel, monthSel, daySel].forEach(el => {
+    el.addEventListener("change", () => {
+      const selectedYear = yearSel.value;
+      const selectedMonth = monthSel.value;
+      const selectedDay = daySel.value;
+
+      allMarkers.forEach(marker => {
+        const content = marker.getPopup().getContent();
+        const captionMatch = content.match(/(\d{2})-(\d{2})<\/div>/);
+
+        if (!captionMatch) {
+          marker.setOpacity(0);
+          return;
+        }
+
+        const [ , m, d ] = captionMatch;
+        const y = marker.options.photoYear;
+
+        const match =
+          (selectedYear === "" || y === selectedYear) &&
+          (selectedMonth === "" || m === selectedMonth) &&
+          (selectedDay === "" || d === selectedDay);
+
+        marker.setOpacity(match ? 1 : 0);
+      });
+    });
+  });
 }
 
 initMap();
