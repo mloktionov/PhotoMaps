@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20240428_122216324.jpg",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1746287517",
+    "formatted": "May 3, 2025, 3:51:57 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1714299736",
+    "formatted": "Apr 28, 2024, 10:22:16 AM UTC"
+  },
+  "geoData": {
+    "latitude": 51.1138697,
+    "longitude": 17.0336651,
+    "altitude": 160.265,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 51.1138697,
+    "longitude": 17.0336651,
+    "altitude": 160.265,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipM8mCTnraaf96I2rvof68z9LerviCfC4wKEyz8h",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

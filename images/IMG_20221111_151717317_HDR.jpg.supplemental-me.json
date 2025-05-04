@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20221111_151717317_HDR.jpg",
+  "description": "",
+  "imageViews": "2",
+  "creationTime": {
+    "timestamp": "1746121989",
+    "formatted": "May 1, 2025, 5:53:09 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1668176237",
+    "formatted": "Nov 11, 2022, 2:17:17 PM UTC"
+  },
+  "geoData": {
+    "latitude": 50.811799099999995,
+    "longitude": 19.0969433,
+    "altitude": 326.002,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 50.811799099999995,
+    "longitude": 19.0969433,
+    "altitude": 326.002,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipMM3lx-hN6lNUTsGAalWM22x_bZcP8_RhsVoP7l",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20230502_165726920_HDR.jpg",
+  "description": "",
+  "imageViews": "2",
+  "creationTime": {
+    "timestamp": "1746121989",
+    "formatted": "May 1, 2025, 5:53:09 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1683039447",
+    "formatted": "May 2, 2023, 2:57:27 PM UTC"
+  },
+  "geoData": {
+    "latitude": 49.420120999999995,
+    "longitude": 20.3216069,
+    "altitude": 571.117,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 49.420120999999995,
+    "longitude": 20.3216069,
+    "altitude": 571.117,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipNHIVO4LeuiJ5JWGI9jKGeqowvqvt_IUfM1MWd3",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

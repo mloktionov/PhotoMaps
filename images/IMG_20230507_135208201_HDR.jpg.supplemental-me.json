@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20230507_135208201_HDR.jpg",
+  "description": "",
+  "imageViews": "3",
+  "creationTime": {
+    "timestamp": "1746121212",
+    "formatted": "May 1, 2025, 5:40:12 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1683460328",
+    "formatted": "May 7, 2023, 11:52:08 AM UTC"
+  },
+  "geoData": {
+    "latitude": 51.3361747,
+    "longitude": 15.4349272,
+    "altitude": 219.137,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 51.3361747,
+    "longitude": 15.4349272,
+    "altitude": 219.137,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipOJBnv4w7k6vPT2N76q7HPzuqFb9_VYOS7IqD3w",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

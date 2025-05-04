@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20230416_135119036_BURST000_COVER_TOP.jpg",
+  "description": "",
+  "imageViews": "3",
+  "creationTime": {
+    "timestamp": "1746121989",
+    "formatted": "May 1, 2025, 5:53:09 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1681645878",
+    "formatted": "Apr 16, 2023, 11:51:18 AM UTC"
+  },
+  "geoData": {
+    "latitude": 50.7494264,
+    "longitude": 16.410581099999998,
+    "altitude": 486.537,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 50.7494264,
+    "longitude": 16.410581099999998,
+    "altitude": 486.537,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipNu5r2fmGJUHFtlHvVyK-hjwFyMZ67WcVk6_8UN",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

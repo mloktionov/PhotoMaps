@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20220602_163147299.jpg",
+  "description": "",
+  "imageViews": "4",
+  "creationTime": {
+    "timestamp": "1746121989",
+    "formatted": "May 1, 2025, 5:53:09 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1654180307",
+    "formatted": "Jun 2, 2022, 2:31:47 PM UTC"
+  },
+  "geoData": {
+    "latitude": 50.765266399999994,
+    "longitude": 16.2800978,
+    "altitude": 492.699,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 50.765266399999994,
+    "longitude": 16.2800978,
+    "altitude": 492.699,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipNajsLnNaQm__uqVS9a6Ia8D3UL_zTKHVmKA24y",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

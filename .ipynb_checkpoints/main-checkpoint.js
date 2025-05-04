@@ -25,40 +25,41 @@ async function initMap() {
   const csv = await response.text();
   const data = Papa.parse(csv, { header: true }).data;
 
-  data.forEach(row => {
-    const lat = parseFloat(row.latitude);
-    const lon = parseFloat(row.longitude);
-    const fname = row.filename;
-    const year = row.year;
-    const month = String(row.month).padStart(2, "0");
-    const day = String(row.day).padStart(2, "0");
+    data.forEach(row => {
+      const lat = parseFloat(row.latitude);
+      const lon = parseFloat(row.longitude);
+      const fname = row.filename;
+      const year = row.year;
+      const month = String(row.month).padStart(2, "0");
+      const day = String(row.day).padStart(2, "0");
 
-    if (isNaN(lat) || isNaN(lon)) return;
+      if (isNaN(lat) || isNaN(lon)) return;
 
-    const icon = L.icon({
-      iconUrl: `${THUMBNAIL_PATH}${fname}`,
-      iconSize: ICON_SIZE,
-      className: "preview-icon"
+      const thumbName = fname.replace(/\.jpe?g$/i, ".png");  // 📌 Поддержка .jpg и .jpeg
+      const icon = L.icon({
+        iconUrl: `${THUMBNAIL_PATH}${thumbName}`,
+        iconSize: ICON_SIZE,
+        className: "preview-icon"
+      });
+
+      const marker = L.marker([lat, lon], { icon });
+      marker.options.photoDate = `${year}-${month}-${day}`;
+      marker.options.photoYear = year;
+
+      const popupHTML = `
+        <div class="popup-box">
+          <img src="images/${fname}" class="popup-img" />
+          <div class="popup-caption">${month}-${day}</div>
+        </div>`;
+
+      marker.bindPopup(popupHTML, {
+        autoPan: true,
+        autoPanPadding: [30, 30]
+      });
+
+      marker.addTo(map);
+      allMarkers.push(marker);
     });
-
-    const marker = L.marker([lat, lon], { icon });
-    marker.options.photoDate = `${year}-${month}-${day}`;
-    marker.options.photoYear = year;
-
-    const popupHTML = `
-      <div class="popup-box">
-        <img src="images/${fname}" class="popup-img" />
-        <div class="popup-caption">${month}-${day}</div>
-      </div>`;
-
-    marker.bindPopup(popupHTML, {
-      autoPan: true,
-      autoPanPadding: [30, 30]
-    });
-
-    marker.addTo(map);
-    allMarkers.push(marker);
-  });
 
   createYearFilter(data);
   setupDateSearch();

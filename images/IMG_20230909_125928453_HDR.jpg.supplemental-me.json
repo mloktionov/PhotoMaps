@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20230909_125928453_HDR.jpg",
+  "description": "",
+  "imageViews": "3",
+  "creationTime": {
+    "timestamp": "1746120779",
+    "formatted": "May 1, 2025, 5:32:59 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1694257169",
+    "formatted": "Sep 9, 2023, 10:59:29 AM UTC"
+  },
+  "geoData": {
+    "latitude": 50.8651861,
+    "longitude": 15.6825712,
+    "altitude": 390.872,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 50.8651861,
+    "longitude": 15.6825712,
+    "altitude": 390.872,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipN6D-KS2uQdvDrjk5qAn07a3AUu7nsq9OwfgJm2",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "title": "IMG_20240809_204833122.jpg",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1746287517",
+    "formatted": "May 3, 2025, 3:51:57 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1723229313",
+    "formatted": "Aug 9, 2024, 6:48:33 PM UTC"
+  },
+  "geoData": {
+    "latitude": 43.871663,
+    "longitude": 10.239957,
+    "altitude": 49.5,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 43.871663,
+    "longitude": 10.239957,
+    "altitude": 49.5,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipPEiDiFq2a1wsug0YYces7iP39kFhclBPDJKaSO",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  },
+  "appSource": {
+    "androidPackageName": "com.motorola.camera3"
+  }
+}

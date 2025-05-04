@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20220603_172555131_HDR.jpg",
+  "description": "",
+  "imageViews": "4",
+  "creationTime": {
+    "timestamp": "1746121989",
+    "formatted": "May 1, 2025, 5:53:09 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1654269955",
+    "formatted": "Jun 3, 2022, 3:25:55 PM UTC"
+  },
+  "geoData": {
+    "latitude": 51.0173346,
+    "longitude": 15.663058399999999,
+    "altitude": 420.124,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 51.0173346,
+    "longitude": 15.663058399999999,
+    "altitude": 420.124,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipOGTJ30SXQAY-Whu4_dwB49-9Pj5cTxPK7y7lkA",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20231021_123523668_HDR.jpg",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1746288738",
+    "formatted": "May 3, 2025, 4:12:18 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1697884524",
+    "formatted": "Oct 21, 2023, 10:35:24 AM UTC"
+  },
+  "geoData": {
+    "latitude": 51.976313999999995,
+    "longitude": 9.514733399999999,
+    "altitude": 123.2,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 51.976313999999995,
+    "longitude": 9.514733399999999,
+    "altitude": 123.2,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipNOoRWD0WFkR_PmEdH86aSRN195urFvUXxPWMt1",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

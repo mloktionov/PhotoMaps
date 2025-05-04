@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20230827_123431903_HDR.jpg",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1746288738",
+    "formatted": "May 3, 2025, 4:12:18 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1693132472",
+    "formatted": "Aug 27, 2023, 10:34:32 AM UTC"
+  },
+  "geoData": {
+    "latitude": 51.030813300000005,
+    "longitude": 16.9898031,
+    "altitude": 155.267,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 51.030813300000005,
+    "longitude": 16.9898031,
+    "altitude": 155.267,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipPRh6UFoUB0lydWw_sjSnEe2NuyzYym5Rzug45h",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

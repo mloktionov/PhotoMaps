@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20230815_200809110.jpg",
+  "description": "",
+  "imageViews": "2",
+  "creationTime": {
+    "timestamp": "1746121212",
+    "formatted": "May 1, 2025, 5:40:12 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1692122889",
+    "formatted": "Aug 15, 2023, 6:08:09 PM UTC"
+  },
+  "geoData": {
+    "latitude": 54.1579297,
+    "longitude": 19.3962188,
+    "altitude": 39.645,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 54.1579297,
+    "longitude": 19.3962188,
+    "altitude": 39.645,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipOhceGYNt0_j4DPgUlUVlozBu0HbN_vIzsHLo12",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

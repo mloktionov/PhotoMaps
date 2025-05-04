@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20240411_143855776_HDR.jpg",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1746287517",
+    "formatted": "May 3, 2025, 3:51:57 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1712839136",
+    "formatted": "Apr 11, 2024, 12:38:56 PM UTC"
+  },
+  "geoData": {
+    "latitude": 51.0971117,
+    "longitude": 17.0688455,
+    "altitude": 161.481,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 51.0971117,
+    "longitude": 17.0688455,
+    "altitude": 161.481,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipOZT4rLdl3-A0w11EvHb8qAgFgcRAO1ii5bOaTP",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

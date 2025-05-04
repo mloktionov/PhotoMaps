@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20220530_125052533_HDR.jpg",
+  "description": "",
+  "imageViews": "1",
+  "creationTime": {
+    "timestamp": "1746288738",
+    "formatted": "May 3, 2025, 4:12:18 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1653907852",
+    "formatted": "May 30, 2022, 10:50:52 AM UTC"
+  },
+  "geoData": {
+    "latitude": 50.4541725,
+    "longitude": 16.6311793,
+    "altitude": 355.098,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 50.4541725,
+    "longitude": 16.6311793,
+    "altitude": 355.098,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipPPcC7NGCI2DeehZXPUX03wywy5JRI_6dF2Om4Z",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

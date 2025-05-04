@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20220904_121616090_HDR.jpg",
+  "description": "",
+  "imageViews": "4",
+  "creationTime": {
+    "timestamp": "1746121989",
+    "formatted": "May 1, 2025, 5:53:09 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1662286576",
+    "formatted": "Sep 4, 2022, 10:16:16 AM UTC"
+  },
+  "geoData": {
+    "latitude": 50.404541099999996,
+    "longitude": 16.396085,
+    "altitude": 559.989,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 50.404541099999996,
+    "longitude": 16.396085,
+    "altitude": 559.989,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipOxrlYrhsk06tKN18wuB7YDFTySnNVnLz7-KdRk",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

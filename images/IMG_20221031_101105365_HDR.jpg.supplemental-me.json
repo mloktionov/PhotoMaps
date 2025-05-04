@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20221031_101105365_HDR.jpg",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1746288738",
+    "formatted": "May 3, 2025, 4:12:18 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1667207465",
+    "formatted": "Oct 31, 2022, 9:11:05 AM UTC"
+  },
+  "geoData": {
+    "latitude": 53.010175499999995,
+    "longitude": 18.6048605,
+    "altitude": 80.58,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 53.010175499999995,
+    "longitude": 18.6048605,
+    "altitude": 80.58,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipMadysYm8MKqmU0LaBEpfCuUlKPHTEuM5Td6LEq",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

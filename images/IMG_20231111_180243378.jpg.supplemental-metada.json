@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20231111_180243378.jpg",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1746288738",
+    "formatted": "May 3, 2025, 4:12:18 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1699722163",
+    "formatted": "Nov 11, 2023, 5:02:43 PM UTC"
+  },
+  "geoData": {
+    "latitude": 49.0506014,
+    "longitude": 14.437035499999997,
+    "altitude": 436.899,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 49.0506014,
+    "longitude": 14.437035499999997,
+    "altitude": 436.899,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipNhKG8wjbfP8iU-bN689XepY2NYecd90jlKDpZp",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

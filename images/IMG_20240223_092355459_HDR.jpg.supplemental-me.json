@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20240223_092355459_HDR.jpg",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1746287517",
+    "formatted": "May 3, 2025, 3:51:57 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1708676635",
+    "formatted": "Feb 23, 2024, 8:23:55 AM UTC"
+  },
+  "geoData": {
+    "latitude": 41.8904536,
+    "longitude": 12.4924894,
+    "altitude": 72.195,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 41.8904536,
+    "longitude": 12.4924894,
+    "altitude": 72.195,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipNkFcs6YsjxCSyWP6Xcl5-ZXT1nUAuuiAmRYYkf",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

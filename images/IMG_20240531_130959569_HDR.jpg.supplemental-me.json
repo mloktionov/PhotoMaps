@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20240531_130959569_HDR.jpg",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1746287517",
+    "formatted": "May 3, 2025, 3:51:57 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1717153800",
+    "formatted": "May 31, 2024, 11:10:00 AM UTC"
+  },
+  "geoData": {
+    "latitude": 45.432744799999995,
+    "longitude": 12.349601,
+    "altitude": 39.747,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 45.432744799999995,
+    "longitude": 12.349601,
+    "altitude": 39.747,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipNfHEoVPDMD0bZ5gzFsFL4DRqEf8isGHJVr4Akb",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

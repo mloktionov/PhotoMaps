@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20220604_122310322_HDR.jpg",
+  "description": "",
+  "imageViews": "3",
+  "creationTime": {
+    "timestamp": "1746121989",
+    "formatted": "May 1, 2025, 5:53:09 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1654338190",
+    "formatted": "Jun 4, 2022, 10:23:10 AM UTC"
+  },
+  "geoData": {
+    "latitude": 50.8421786,
+    "longitude": 16.2910338,
+    "altitude": 444.399,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 50.8421786,
+    "longitude": 16.2910338,
+    "altitude": 444.399,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipNTgQ-lNnENqr6uAP8FRkxetX0AhWMK_17GPqUr",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

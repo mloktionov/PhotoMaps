@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20230501_161613300.jpg",
+  "description": "",
+  "imageViews": "3",
+  "creationTime": {
+    "timestamp": "1746121989",
+    "formatted": "May 1, 2025, 5:53:09 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1682950573",
+    "formatted": "May 1, 2023, 2:16:13 PM UTC"
+  },
+  "geoData": {
+    "latitude": 49.2427449,
+    "longitude": 19.863783299999998,
+    "altitude": 1050.608,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 49.2427449,
+    "longitude": 19.863783299999998,
+    "altitude": 1050.608,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipMUE93k6bd_zIpTTAavZbYWs2EF61g3BSFGlmL1",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

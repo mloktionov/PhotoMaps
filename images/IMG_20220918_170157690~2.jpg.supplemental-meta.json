@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20220918_170157690~2.jpg",
+  "description": "",
+  "imageViews": "3",
+  "creationTime": {
+    "timestamp": "1746121989",
+    "formatted": "May 1, 2025, 5:53:09 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1663513317",
+    "formatted": "Sep 18, 2022, 3:01:57 PM UTC"
+  },
+  "geoData": {
+    "latitude": 51.1140848,
+    "longitude": 17.0459283,
+    "altitude": 161.725,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 51.1140848,
+    "longitude": 17.0459283,
+    "altitude": 161.725,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipMQGaAtjx8M8Cl5Hq_AFYrNfWkieitmhPGMlcVE",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

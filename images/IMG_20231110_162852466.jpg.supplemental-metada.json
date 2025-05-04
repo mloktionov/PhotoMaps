@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20231110_162852466.jpg",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1746288738",
+    "formatted": "May 3, 2025, 4:12:18 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1699630132",
+    "formatted": "Nov 10, 2023, 3:28:52 PM UTC"
+  },
+  "geoData": {
+    "latitude": 50.0859034,
+    "longitude": 14.4232123,
+    "altitude": 239.592,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 50.0859034,
+    "longitude": 14.4232123,
+    "altitude": 239.592,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipMNmxyKyCqvvZibCZMiNQ59I20YZhDYS-phtw3q",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

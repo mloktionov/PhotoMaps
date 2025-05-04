@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20220820_131413382_HDR.jpg",
+  "description": "",
+  "imageViews": "1",
+  "creationTime": {
+    "timestamp": "1746288738",
+    "formatted": "May 3, 2025, 4:12:18 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1660994053",
+    "formatted": "Aug 20, 2022, 11:14:13 AM UTC"
+  },
+  "geoData": {
+    "latitude": 50.841988799999996,
+    "longitude": 16.2918403,
+    "altitude": 442.178,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 50.841988799999996,
+    "longitude": 16.2918403,
+    "altitude": 442.178,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipPYo035FtUeQhj_1sGnYVzQTc0MaIIpsI1SeOvS",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

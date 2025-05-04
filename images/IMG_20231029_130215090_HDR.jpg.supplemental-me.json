@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20231029_130215090_HDR.jpg",
+  "description": "",
+  "imageViews": "1",
+  "creationTime": {
+    "timestamp": "1746120779",
+    "formatted": "May 1, 2025, 5:32:59 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1698580935",
+    "formatted": "Oct 29, 2023, 12:02:15 PM UTC"
+  },
+  "geoData": {
+    "latitude": 51.1103373,
+    "longitude": 16.947560199999998,
+    "altitude": 166.256,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 51.1103373,
+    "longitude": 16.947560199999998,
+    "altitude": 166.256,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipOPRR-aeM8Xy01gQjnFGPftBpUGXZ6pw9xxpoTu",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

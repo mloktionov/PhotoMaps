@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20230814_150503870.jpg",
+  "description": "",
+  "imageViews": "2",
+  "creationTime": {
+    "timestamp": "1746121212",
+    "formatted": "May 1, 2025, 5:40:12 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1692018303",
+    "formatted": "Aug 14, 2023, 1:05:03 PM UTC"
+  },
+  "geoData": {
+    "latitude": 54.3604543,
+    "longitude": 19.6762738,
+    "altitude": 32.507,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 54.3604543,
+    "longitude": 19.6762738,
+    "altitude": 32.507,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipMo7GbUZyONr2z2-o4puq3UCOjVEf18TBGENidd",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}
