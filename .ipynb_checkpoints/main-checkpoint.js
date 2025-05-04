@@ -15,8 +15,7 @@ const yearColors = {
   "2024": "#fd79a8", "2025": "#636e72"
 };
 
-let map, currentYear = null;
-let allMarkers = [];
+let map, allMarkers = [];
 
 async function initMap() {
   map = L.map("map").setView([51.5, 19.0], 6);
@@ -26,42 +25,44 @@ async function initMap() {
   const csv = await response.text();
   const data = Papa.parse(csv, { header: true }).data;
 
-  data.forEach(row => {
-    const lat = parseFloat(row.latitude);
-    const lon = parseFloat(row.longitude);
-    const fname = row.filename;
-    const year = row.year;
-    const month = String(row.month).padStart(2, "0");
-    const day = String(row.day).padStart(2, "0");
+    data.forEach(row => {
+      const lat = parseFloat(row.latitude);
+      const lon = parseFloat(row.longitude);
+      const fname = row.filename;
+      const year = row.year;
+      const month = String(row.month).padStart(2, "0");
+      const day = String(row.day).padStart(2, "0");
 
-    if (isNaN(lat) || isNaN(lon)) return;
+      if (isNaN(lat) || isNaN(lon)) return;
 
-    const icon = L.icon({
-      iconUrl: `${THUMBNAIL_PATH}${fname}`,
-      iconSize: ICON_SIZE,
-      className: "preview-icon"
+      const thumbName = fname.replace(/\.jpe?g$/i, ".png");  // 📌 Поддержка .jpg и .jpeg
+      const icon = L.icon({
+        iconUrl: `${THUMBNAIL_PATH}${thumbName}`,
+        iconSize: ICON_SIZE,
+        className: "preview-icon"
+      });
+
+      const marker = L.marker([lat, lon], { icon });
+      marker.options.photoDate = `${year}-${month}-${day}`;
+      marker.options.photoYear = year;
+
+      const popupHTML = `
+        <div class="popup-box">
+          <img src="images/${fname}" class="popup-img" />
+          <div class="popup-caption">${month}-${day}</div>
+        </div>`;
+
+      marker.bindPopup(popupHTML, {
+        autoPan: true,
+        autoPanPadding: [30, 30]
+      });
+
+      marker.addTo(map);
+      allMarkers.push(marker);
     });
-
-    const marker = L.marker([lat, lon], { icon });
-    marker.options.photoYear = year;
-
-    const imgPath = `images/${fname}`;
-    const popupHTML = `
-      <div class="popup-box">
-        <img src="${imgPath}" class="popup-img" />
-        <div class="popup-caption">${month}-${day}</div>
-      </div>`;
-
-    marker.bindPopup(popupHTML, {
-      autoPan: true,
-      autoPanPadding: [30, 30]
-    });
-
-    marker.addTo(map);
-    allMarkers.push(marker);
-  });
 
   createYearFilter(data);
+  setupDateSearch();
 }
 
 function createYearFilter(data) {
@@ -74,9 +75,8 @@ function createYearFilter(data) {
   container.appendChild(allBtn);
 
   allBtn.addEventListener("click", () => {
-    currentYear = null;
     updateMarkers();
-    updateButtons();
+    updateButtons(null);
   });
 
   years.forEach(year => {
@@ -87,28 +87,57 @@ function createYearFilter(data) {
     container.appendChild(btn);
 
     btn.addEventListener("click", () => {
-      currentYear = year;
-      updateMarkers();
-      updateButtons();
+      updateMarkers(year);
+      updateButtons(year);
     });
   });
 
-  function updateMarkers() {
+  function updateMarkers(selectedYear = null) {
     allMarkers.forEach(marker => {
-      marker.setOpacity(currentYear === null || marker.options.photoYear === currentYear ? 1 : 0);
+      const show = !selectedYear || marker.options.photoYear === selectedYear;
+      marker.setOpacity(show ? 1 : 0);
     });
   }
 
-  function updateButtons() {
+  function updateButtons(activeYear) {
     const buttons = container.querySelectorAll(".year-button");
-    buttons.forEach(b => b.classList.remove("active"));
-    if (currentYear === null) {
-      allBtn.classList.add("active");
-    } else {
-      const target = [...buttons].find(b => b.textContent === currentYear);
-      if (target) target.classList.add("active");
-    }
+    buttons.forEach(btn => btn.classList.remove("active"));
+    const target = [...buttons].find(b => b.textContent === (activeYear || "Все"));
+    if (target) target.classList.add("active");
   }
+}
+
+function setupDateSearch() {
+  const input = document.getElementById("caption-search");
+  if (!input) return;
+
+  input.addEventListener("input", () => {
+    const query = input.value.trim();
+    filterByDateQuery(query);
+  });
+}
+
+function filterByDateQuery(query) {
+  allMarkers.forEach(marker => {
+    const popup = marker.getPopup();
+    if (!popup) return;
+
+    const content = popup.getContent();
+    const match = content.match(/(\d{2})-(\d{2})/);
+    if (!match) return;
+
+    const [ , month, day ] = match;
+    const fullDate = `${marker.options.photoYear}${month}${day}`;
+
+    if (
+      query === "" ||
+      fullDate.includes(query)
+    ) {
+      marker.setOpacity(1);
+    } else {
+      marker.setOpacity(0);
+    }
+  });
 }
 
 function applyTileLayer() {
@@ -117,5 +146,10 @@ function applyTileLayer() {
     attribution: "&copy; OpenStreetMap"
   }).addTo(map);
 }
+
+document.getElementById("caption-search").addEventListener("input", (e) => {
+  const query = e.target.value.trim();
+  filterByDateQuery(query);
+});
 
 initMap();
