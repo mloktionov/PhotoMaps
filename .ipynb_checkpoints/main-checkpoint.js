@@ -1,6 +1,4 @@
-// === main.js ===
-
-const CSV_PATH = "csv/photos.csv";
+const CSV_DIR = "csv/";
 const THUMBNAIL_PATH = "thumbnails/";
 const ICON_SIZE = [32, 32];
 const POPUP_IMG_WIDTH = 280;
@@ -21,48 +19,65 @@ async function initMap() {
   map = L.map("map").setView([51.5, 19.0], 6);
   applyTileLayer();
 
-  const response = await fetch(CSV_PATH);
-  const csv = await response.text();
-  const data = Papa.parse(csv, { header: true }).data;
+  const csvFiles = await listCsvFiles();  // 🔄 Получаем все photos_YYYY.csv
+  const allData = [];
 
-    data.forEach(row => {
-      const lat = parseFloat(row.latitude);
-      const lon = parseFloat(row.longitude);
-      const fname = row.filename;
-      const year = row.year;
-      const month = String(row.month).padStart(2, "0");
-      const day = String(row.day).padStart(2, "0");
+  for (const file of csvFiles) {
+    const resp = await fetch(CSV_DIR + file);
+    const text = await resp.text();
+    const data = Papa.parse(text, { header: true }).data;
+    console.log(`📄 Загружено ${data.length} записей из ${file}`);
+    allData.push(...data);
+  }
 
-      if (isNaN(lat) || isNaN(lon)) return;
+  allData.forEach(row => {
+    const lat = parseFloat(row.latitude);
+    const lon = parseFloat(row.longitude);
+    const fname = row.filename;
+    const year = row.year;
+    const month = String(row.month).padStart(2, "0");
+    const day = String(row.day).padStart(2, "0");
 
-      const thumbName = fname.replace(/\.jpe?g$/i, ".png");  // 📌 Поддержка .jpg и .jpeg
-      const icon = L.icon({
-        iconUrl: `${THUMBNAIL_PATH}${thumbName}`,
-        iconSize: ICON_SIZE,
-        className: "preview-icon"
-      });
+    if (isNaN(lat) || isNaN(lon)) return;
 
-      const marker = L.marker([lat, lon], { icon });
-      marker.options.photoDate = `${year}-${month}-${day}`;
-      marker.options.photoYear = year;
-
-      const popupHTML = `
-        <div class="popup-box">
-          <img src="images/${fname}" class="popup-img" />
-          <div class="popup-caption">${month}-${day}</div>
-        </div>`;
-
-      marker.bindPopup(popupHTML, {
-        autoPan: true,
-        autoPanPadding: [30, 30]
-      });
-
-      marker.addTo(map);
-      allMarkers.push(marker);
+    const thumbName = fname.replace(/\.jpe?g$/i, ".png");
+    const icon = L.icon({
+      iconUrl: `${THUMBNAIL_PATH}${thumbName}`,
+      iconSize: ICON_SIZE,
+      className: "preview-icon"
     });
 
-  createYearFilter(data);
+    const marker = L.marker([lat, lon], { icon });
+    marker.options.photoDate = `${year}-${month}-${day}`;
+    marker.options.photoYear = year;
+
+    const popupHTML = `
+      <div class="popup-box">
+        <img src="images/${fname}" class="popup-img" />
+        <div class="popup-caption">${month}-${day}</div>
+      </div>`;
+
+    marker.bindPopup(popupHTML, {
+      autoPan: true,
+      autoPanPadding: [30, 30]
+    });
+
+    marker.addTo(map);
+    allMarkers.push(marker);
+  });
+
+//  createYearFilter(allData);
   setupDateSearch();
+}
+
+// 🔍 Получить список всех файлов csv/photos_YYYY.csv
+async function listCsvFiles() {
+  const resp = await fetch(CSV_DIR);
+  const html = await resp.text();
+  const matches = html.match(/photos_\d{4}\.csv/g);
+  const files = matches ? [...new Set(matches)] : [];
+  console.log("📂 Загружаем CSV-файлы:", files);
+  return files;
 }
 
 function createYearFilter(data) {
@@ -129,14 +144,9 @@ function filterByDateQuery(query) {
     const [ , month, day ] = match;
     const fullDate = `${marker.options.photoYear}${month}${day}`;
 
-    if (
-      query === "" ||
-      fullDate.includes(query)
-    ) {
-      marker.setOpacity(1);
-    } else {
-      marker.setOpacity(0);
-    }
+    marker.setOpacity(
+      query === "" || fullDate.includes(query) ? 1 : 0
+    );
   });
 }
 
