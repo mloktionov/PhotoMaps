@@ -1,0 +1,18 @@
+<Placemark>
+  <name>08-24</name>
+  <Style>
+    <IconStyle>
+      <scale>2.0</scale>
+      <Icon>
+        <href>https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230824_121403296_HDR.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <description><![CDATA[
+    <p><img src="https://mloktionov.github.io/PhotoMaps/thumbnails/IMG_20230824_121403296_HDR.png" width="128" /></p>
+    <p><a href="https://mloktionov.github.io/PhotoMaps/images/IMG_20230824_121403296_HDR.jpg">Полный размер</a></p>
+  ]]></description>
+  <Point>
+    <coordinates>17.036891,51.107235,0</coordinates>
+  </Point>
+</Placemark>

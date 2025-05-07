@@ -1,0 +1,70 @@
+/* 🌍 Основной контейнер */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#map {
+  height: 100%;
+}
+
+/* 🖼️ Иконки превью */
+.preview-icon {
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 4px rgba(0,0,0,0.6);
+  background-color: transparent;
+  object-fit: cover;
+}
+
+/* 📍 Попап */
+.leaflet-popup-content-wrapper {
+  background: rgba(240, 248, 255, 0.8);
+  border-radius: 12px;
+  padding: 0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  max-width: none !important;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  padding: 0.6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto !important;
+}
+
+.popup-img {
+  display: block;
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.4);
+}
+
+.popup-caption {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  color: #333;
+}
+
+/* 📱 Адаптивный попап для телефонов */
+@media (max-width: 600px) {
+  .popup-img {
+    max-width: 90vw;
+    max-height: 50vh;
+  }
+
+  .leaflet-popup-content {
+    padding: 0.4em;
+  }
+
+  .popup-caption {
+    font-size: 0.85em;
+    text-align: center;
+  }
+}

@@ -1,0 +1,7 @@
+# photos/
+thumbnails/
+images/
+images0/
+*.csv
+*.ipynb_checkpoints/
+.DS_Store
