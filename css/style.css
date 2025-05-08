@@ -7,8 +7,15 @@ body, html {
 }
 
 #map {
-    height: calc(100vh - 60px); /* динамическая высота с учетом панели фильтров */
+    height: 90vh;
     width: 100%;
+    z-index: 1;
+}
+
+.popup-image {
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
 }
 
 /* === Панель управления фильтрами === */
@@ -39,11 +46,3 @@ button:hover {
     background-color: #45a049;
 }
 
-/* === Попап изображения === */
-.popup-image {
-    width: 150px;
-    height: auto;
-    max-height: 150px;
-    border-radius: 8px;
-    object-fit: cover;
-}
