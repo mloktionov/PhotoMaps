@@ -6,3 +6,4 @@ images0/
 *.csv
 *.ipynb_checkpoints/
 .DS_Store
+client_secrets.json
