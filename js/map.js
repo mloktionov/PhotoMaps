@@ -1,4 +1,4 @@
-// === Инициализация карты ===
+""// === Инициализация карты ===
 const map = L.map('map').setView([20, 0], 2);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -13,7 +13,7 @@ const yearSelect = document.getElementById('yearFilter');
 const monthSelect = document.getElementById('monthFilter');
 const pointCount = document.getElementById('pointCount');
 
-// === Загрузка GeoJSON данных ===
+// === 🚀 Загрузка GeoJSON данных ===
 fetch('./geojson/photos.geojson')
     .then(response => response.json())
     .then(data => {
@@ -21,13 +21,13 @@ fetch('./geojson/photos.geojson')
 
         L.geoJSON(data, {
             onEachFeature: (feature, layer) => {
-                const imagePath = `./photos/${feature.properties.filename}`;
+                const googleThumbnailLink = `https://drive.google.com/thumbnail?id=${feature.properties.image.split("id=")[1]}`;
                 const popupContent = `
                     <div>
                         <strong>${feature.properties.filename}</strong><br>
-                        Year: ${feature.properties.year}<br>
-                        Month: ${feature.properties.month}<br>
-                        <img src="${imagePath}" class="popup-image" alt="Image Preview">
+                        📅 Year: ${feature.properties.year}<br>
+                        📆 Month: ${feature.properties.month}<br>
+                        <img src="${googleThumbnailLink}" class="popup-image" alt="Image Preview" style="max-width: 250px; border-radius: 5px; margin-top: 5px;">
                     </div>
                 `;
                 layer.bindPopup(popupContent);
@@ -40,16 +40,17 @@ fetch('./geojson/photos.geojson')
         map.addLayer(markers);
         pointCount.textContent = allLayers.length;
 
-        // Заполнение селектора годов
+        // === 📌 Заполнение селектора годов ===
         years.forEach(year => {
             const option = document.createElement('option');
             option.value = year;
             option.text = year;
             yearSelect.appendChild(option);
         });
-    });
+    })
+    .catch(error => console.error('Ошибка загрузки GeoJSON:', error));
 
-// === Функция фильтрации ===
+// === 🔄 Функция фильтрации ===
 function applyFilter() {
     const selectedYear = yearSelect.value;
     const selectedMonth = monthSelect.value;
@@ -70,13 +71,14 @@ function applyFilter() {
     pointCount.textContent = visibleCount;
 }
 
-// === Сброс фильтров ===
+// === 🔄 Сброс фильтров ===
 function resetFilters() {
     yearSelect.value = 'all';
     monthSelect.value = 'all';
     applyFilter();
 }
 
-// === События изменения фильтров ===
+// === 🎯 События изменения фильтров ===
 yearSelect.addEventListener('change', applyFilter);
 monthSelect.addEventListener('change', applyFilter);
+""
