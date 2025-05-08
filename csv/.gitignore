@@ -1,0 +1,26 @@
+# Директории
+node_modules/
+.env
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+photos/
+photos0/
+images/
+images0/
+kml/.ipynb_checkpoints/
+
+# Файлы
+client_secrets.json
+*.log
+*.pyc
+
+# Mac OS
+*.DS_Store
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
