@@ -53,19 +53,58 @@ const MapComponent = () => {
                         const { filename, year, month, image } = feature.properties;
 
                         const popupContent = `
-                            <div>
+                            <div class="popup-content">
                                 <strong>${filename}</strong><br>
                                 Year: ${year}<br>
                                 Month: ${month}<br>
-                                <img src="${image}" class="popup-image" style="width: 200px; height: auto;" alt="Preview">
+                                <div id="image-container">
+                                    <p>Loading image...</p>
+                                </div>
                             </div>
                         `;
 
                         layer.bindPopup(popupContent);
+                        layer.on('popupopen', () => {
+                            setTimeout(() => {
+                                const container = document.querySelector('#image-container');
+                                if (container) {
+                                    container.innerHTML = '';
+                                    const img = document.createElement('img');
+                                    img.src = image;
+                                    img.alt = "Preview";
+                                    img.style.width = '200px';
+                                    img.style.height = 'auto';
+                                    img.onload = () => console.log(`✅ Lazy Loaded: ${image}`);
+                                    img.onerror = () => {
+                                        console.error(`❌ Ошибка загрузки: ${image}`);
+                                        container.innerHTML = '<p>Image failed to load.</p>';
+                                    };
+                                    container.appendChild(img);
+                                }
+                            }, 100);
+                        });
+
+                        layer.on('popupclose', () => {
+                            const popupElement = layer.getPopup() ? layer.getPopup().getElement() : null;
+                            if (popupElement) {
+                                const img = popupElement.querySelector('img');
+                                if (img && popupElement.contains(img)) {
+                                    try {
+                                        popupElement.removeChild(img);
+                                        console.log("🗑️ Изображение успешно удалено из памяти.");
+                                    } catch (error) {
+                                        console.warn("⚠️ Не удалось удалить изображение:", error.message);
+                                    }
+                                }
+                            } else {
+                                console.warn("⚠️ Попап не существует в момент закрытия.");
+                            }
+                        });
+
                         markersRef.current.addLayer(layer);
                         layers.push(layer);
                         tempYears.add(year);
-                    },
+                    }
                 });
 
                 setAllLayers(layers);
