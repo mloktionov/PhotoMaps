@@ -21,20 +21,24 @@ fetch('./geojson/photos.geojson')
         console.log("Loaded GeoJSON data:", data);
         L.geoJSON(data, {
             onEachFeature: (feature, layer) => {
-                const { filename, year, month, image } = feature.properties;
+                const { filename, year, month, day, image, country_code } = feature.properties;
 
                 console.log("Исходная ссылка на изображение:", image);
 
                 const popupContent = `
                 <div style="text-align: center; padding: 10px;">
-                    <strong style="font-size: 14px; margin-bottom: 5px; display: block;">${filename}</strong>
+                   <!-- <strong style="font-size: 14px; margin-bottom: 5px; display: block;">${filename}</strong> -->
                     <span style="font-size: 12px; color: #555;">
-                        <img src="https://img.icons8.com/color/16/000000/calendar--v1.png" 
-                             style="vertical-align: middle; margin-right: 5px;">${year} |
+                    <!--    <img src="https://flagsapi.com/US/flat/64.png" 
+                             style="vertical-align: middle; margin-right: 5px;" width="16" height="16"> | -->
+                        <img src="https://flagsapi.com/${feature.properties.country_code}/flat/16.png" 
+                        style="vertical-align: middle; margin-right: 5px;" width="16" height="16">
                         <img src="https://img.icons8.com/color/16/000000/calendar-16.png" 
+                             style="vertical-align: middle; margin-right: 5px;">${day} |                             
+                        <img src="https://img.icons8.com/color/16/000000/planner.png" 
                              style="vertical-align: middle; margin-right: 5px;">${month} |
-                        <img src="https://flagsapi.com/US/flat/64.png" 
-                             style="vertical-align: middle; margin-right: 5px;" width="16" height="16">
+                        <img src="https://img.icons8.com/color/16/000000/calendar--v1.png" 
+                             style="vertical-align: middle; margin-right: 5px;">${year} 
                     </span><br>
                     <img data-src="${image}" 
                          class="popup-image lazyload" 
