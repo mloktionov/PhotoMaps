@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Drive Image Test</title>
+</head>
+<body>
+    <h3>Проверка прямой загрузки изображений из Google Drive:</h3>
+
+    <div id="images">
+        <img src="https://drive.google.com/thumbnail?id=1SE-Vj4BEu8mHo7hKw68sCwHLYHBBtFqC" alt="Test 1" style="width: 200px;" />
+        <img src="https://drive.google.com/thumbnail?id=1aryuc7SKWSBm13EWZWeRKiGTRaf_9nZm" alt="Test 2" style="width: 200px;" />
+        <img src="https://drive.google.com/thumbnail?id=1O9yU8rGD1Bc0DOiciFJXukNi8QO_gFQ5" alt="Test 3" style="width: 200px;" />
+    </div>
+
+    <script>
+        const images = document.querySelectorAll('#images img');
+        images.forEach((img) => {
+            img.onerror = () => {
+                console.error(`❌ Ошибка загрузки: ${img.src}`);
+            };
+            img.onload = () => {
+                console.log(`✅ Успешная загрузка: ${img.src}`);
+            };
+        });
+    </script>
+</body>
+</html>
