@@ -1,10 +1,6 @@
-/* === Filter Logic === */
-
-
-/* === Применить фильтр === */
 function applyFilter() {
-    const selectedYear = yearSelect.value;
-    const selectedMonth = monthSelect.value;
+    const selectedYear = document.getElementById('yearFilter').value;
+    const selectedMonth = document.getElementById('monthFilter').value;
     markers.clearLayers();
     let visibleCount = 0;
 
@@ -19,19 +15,16 @@ function applyFilter() {
         }
     });
 
-    const pointCount = document.getElementById('pointCount');
-    if (pointCount) {
-        pointCount.textContent = `Total Points: ${visibleCount}`;
-    }
+    document.getElementById('pointCount').textContent = visibleCount;
 }
 
-/* === Сбросить фильтры === */
+// === Сброс фильтров ===
 function resetFilters() {
-    yearSelect.value = 'all';
-    monthSelect.value = 'all';
+    document.getElementById('yearFilter').value = 'all';
+    document.getElementById('monthFilter').value = 'all';
     applyFilter();
 }
 
-/* === События === */
-yearSelect.addEventListener('change', applyFilter);
-monthSelect.addEventListener('change', applyFilter);
+// === События изменения фильтров ===
+document.getElementById('yearFilter').addEventListener('change', applyFilter);
+document.getElementById('monthFilter').addEventListener('change', applyFilter);
