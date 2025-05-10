@@ -26,12 +26,14 @@ fetch('./geojson/photos.geojson')
                 console.log("Исходная ссылка на изображение:", image);
 
                 const popupContent = `
-                    <div>
-                        <strong>${filename}</strong><br>
-                        Year: ${year}<br>
-                        Month: ${month}<br>
-                        <img data-src="${image}" class="popup-image lazyload" style="width: 100px; height: auto;" alt="Preview">
-                    </div>
+                    <div style="text-align: center; padding: 10px;">
+    <strong style="font-size: 14px; margin-bottom: 5px; display: block;">${filename}</strong>
+    <span style="font-size: 12px; color: #555;">
+        <img src="https://img.icons8.com/color/16/000000/calendar--v1.png" style="vertical-align: middle; margin-right: 5px;">${year} |
+<img src="https://img.icons8.com/color/16/000000/calendar-16.png" style="vertical-align: middle; margin-right: 5px;">${month}
+    </span><br>
+    <img data-src="${image}" class="popup-image lazyload" style="width: 200px; height: auto; display: block; margin: 10px auto; border-radius: 8px; border: 1px solid #ccc;" alt="Preview">
+</div>
                 `;
 
                 layer.bindPopup(popupContent);
