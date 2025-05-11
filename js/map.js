@@ -1,4 +1,9 @@
-/* === Инициализация карты === */
+// === Настройки ===
+const FLAG_URL_TEMPLATE = "https://flagsapi.com/{code}/flat/16.png";
+const NOMINATIM_URL = "https://nominatim.openstreetmap.org/reverse?format=json";
+const PLACEHOLDER_IMAGE = "https://via.placeholder.com/150";
+
+// === Инициализация карты ===
 const map = L.map('map').setView([20, 0], 2);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -8,102 +13,73 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 const markers = L.markerClusterGroup();
 let allLayers = [];
-const years = new Set();
 
-const yearSelect = document.getElementById('yearFilter');
-const monthSelect = document.getElementById('monthFilter');
-const pointCount = document.getElementById('pointCount');
-
-/* === Загрузка GeoJSON данных === */
+// === Загрузка GeoJSON данных ===
 fetch('./geojson/photos.geojson')
     .then(response => response.json())
     .then(data => {
-        console.log("Loaded GeoJSON data:", data);
         L.geoJSON(data, {
-            onEachFeature: (feature, layer) => {
-                const { filename, year, month, day, image, country_code } = feature.properties;
+            onEachFeature: async (feature, layer) => {
+                const { filename, image, country_code, year, month, day } = feature.properties;
 
-                console.log("Исходная ссылка на изображение:", image);
+                // === Проверка координат ===
+                let latitude = feature.geometry.coordinates[1];
+                let longitude = feature.geometry.coordinates[0];
 
-                const popupContent = `
-                <div style="text-align: center; padding: 10px;">
-                   <!-- <strong style="font-size: 14px; margin-bottom: 5px; display: block;">${filename}</strong> -->
-                    <span style="font-size: 12px; color: #555;">
-                    <!--    <img src="https://flagsapi.com/US/flat/64.png" 
-                             style="vertical-align: middle; margin-right: 5px;" width="16" height="16"> | -->
-                        <img src="https://flagsapi.com/${feature.properties.country_code}/flat/16.png" 
-                        style="vertical-align: middle; margin-right: 5px;" width="16" height="16">
-                        <img src="https://img.icons8.com/color/16/000000/calendar-16.png" 
-                             style="vertical-align: middle; margin-right: 5px;">${day} |                             
-                        <img src="https://img.icons8.com/color/16/000000/planner.png" 
-                             style="vertical-align: middle; margin-right: 5px;">${month} |
-                        <img src="https://img.icons8.com/color/16/000000/calendar--v1.png" 
-                             style="vertical-align: middle; margin-right: 5px;">${year} 
-                    </span><br>
-                    <img data-src="${image}" 
-                         class="popup-image lazyload" 
-                         style="width: 200px; height: auto; display: block; margin: 10px auto; border-radius: 8px; border: 1px solid #ccc;" 
-                         alt="Preview">
-                </div>
-                `;
+                if (!latitude || !longitude) {
+                    console.error(`❌ Не найдены координаты для: ${filename}`);
+                    latitude = "0";
+                    longitude = "0";
+                }
 
-                layer.bindPopup(popupContent);
+                // === Подгрузка изображения при клике ===
+                layer.on('click', async () => {
+                    console.log(`📌 Попап открыт для: ${filename}`);
+                    
+                    // === Загрузка превью изображения ===
+                    const imgUrl = image ? image : PLACEHOLDER_IMAGE;
+
+                    // === Получение локации через Nominatim ===
+                    let locationName = "Unknown Location";
+                    try {
+                        const response = await fetch(`${NOMINATIM_URL}&lat=${latitude}&lon=${longitude}`);
+                        if (response.ok) {
+                            const result = await response.json();
+                            locationName = result.address.city ?? result.address.town ?? result.address.village ?? "Unknown Location";
+                        } else {
+                            console.error("❌ Ошибка загрузки локации.");
+                        }
+                    } catch (error) {
+                        console.error("⚠️ Ошибка сети при загрузке локации:", error);
+                    }
+
+                    // === Флаг страны ===
+                    const flagUrl = country_code ? FLAG_URL_TEMPLATE.replace("{code}", country_code) : PLACEHOLDER_IMAGE;
+
+                    // === Контент для попапа ===
+                    const popupContent = `
+                        <div style="text-align: center; padding: 10px;">
+                            <strong style="font-size: 14px;">${locationName}</strong>
+                            <div style="margin-top: 5px;">
+                                <img src="${flagUrl}" style="vertical-align: middle; margin-right: 5px;" width="16" height="16"> |
+                                <img src="https://img.icons8.com/color/16/000000/calendar-16.png" style="vertical-align: middle; margin-right: 5px;">${day} |
+                                <img src="https://img.icons8.com/color/16/000000/calendar-16.png" style="vertical-align: middle; margin-right: 5px;">${month} |
+                                <img src="https://img.icons8.com/color/16/000000/calendar--v1.png" style="vertical-align: middle; margin-right: 5px;">${year}
+                            </div>
+                            <img src="${imgUrl}" style="width: 200px; height: auto; display: block; margin: 10px auto; border-radius: 8px; border: 1px solid #ccc;">
+                        </div>
+                    `;
+
+                    layer.bindPopup(popupContent).openPopup();
+                });
+
                 markers.addLayer(layer);
                 allLayers.push(layer);
-                years.add(String(year));
-
-                // === Lazy Load обработка ===
-                layer.on('popupopen', () => {
-                    const img = layer.getPopup().getElement().querySelector('img');
-                    if (img && !img.src) {
-                        img.src = img.dataset.src;
-                        console.log("Lazy load image src set to:", img.src);
-                    }
-                });
             }
         });
 
         map.addLayer(markers);
-        pointCount.textContent = `Total Points: ${allLayers.length}`;
-
-        // === Заполнение селектора годов ===
-        years.forEach(year => {
-            const option = document.createElement('option');
-            option.value = year;
-            option.text = year;
-            yearSelect.appendChild(option);
-        });
+    })
+    .catch(error => {
+        console.error("Ошибка при загрузке GeoJSON данных:", error);
     });
-
-
-/* === Обновление фильтрации === */
-function applyFilter() {
-    const selectedYear = yearSelect.value;
-    const selectedMonth = monthSelect.value;
-    markers.clearLayers();
-    let visibleCount = 0;
-
-    allLayers.forEach(layer => {
-        const { year, month } = layer.feature.properties;
-        if (
-            (selectedYear === 'all' || String(year) === selectedYear) &&
-            (selectedMonth === 'all' || String(month).padStart(2, '0') === selectedMonth)
-        ) {
-            markers.addLayer(layer);
-            visibleCount++;
-        }
-    });
-
-    pointCount.textContent = `Total Points: ${visibleCount}`;
-}
-
-/* === Сброс фильтров === */
-function resetFilters() {
-    yearSelect.value = 'all';
-    monthSelect.value = 'all';
-    applyFilter();
-}
-
-/* === События изменения фильтров === */
-yearSelect.addEventListener('change', applyFilter);
-monthSelect.addEventListener('change', applyFilter);

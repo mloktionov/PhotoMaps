@@ -1,136 +1,120 @@
-import React, { useEffect, useRef, useState } from 'react';
-import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
-import 'leaflet.markercluster/dist/MarkerCluster.css';
-import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
-import 'leaflet.markercluster';
-import FilterPanel from './FilterPanel';
+// === Инициализация карты ===
+const map = L.map('map').setView([20, 0], 2);
 
-import markerIcon from 'leaflet/dist/images/marker-icon.png';
-import markerIconShadow from 'leaflet/dist/images/marker-shadow.png';
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
 
-const DefaultIcon = L.icon({
-    iconUrl: markerIcon,
-    shadowUrl: markerIconShadow,
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
+const markers = L.markerClusterGroup();
+let allLayers = [];
 
-L.Marker.prototype.options.icon = DefaultIcon;
+const yearSelect = document.getElementById('yearFilter');
+const monthSelect = document.getElementById('monthFilter');
+const pointCount = document.getElementById('pointCount');
 
-// === Восстанавливаем старую логику превью Google Drive ===
-const generateGoogleDriveThumbnail = (url) => {
-    if (url.includes("drive.google.com")) {
-        const match = url.match(/id=([^&]+)/);
-        return match ? `https://drive.google.com/thumbnail?id=${match[1]}` : url;
-    }
-    return url;
-};
+// === Загрузка GeoJSON данных ===
+fetch('./geojson/photos.geojson')
+    .then(response => response.json())
+    .then(data => {
+        const years = new Set();
 
-const MapComponent = () => {
-    const mapRef = useRef(null);
-    const markersRef = useRef(null);
-    const [years, setYears] = useState([]);
-    const [allLayers, setAllLayers] = useState([]);
+        L.geoJSON(data, {
+            onEachFeature: async (feature, layer) => {
+                const { filename, year, month, day, image, country_code } = feature.properties;
 
-    useEffect(() => {
-        if (mapRef.current !== null) {
-            console.log("Карта уже инициализирована. Повторный рендер предотвращён.");
-            return;
+                // URL для превью
+                console.log("🌐 Попытка загрузить превью:", image);
+
+                try {
+                    const response = await fetch(image, { method: 'GET', mode: 'no-cors' });
+
+                    if (response.ok) {
+                        console.log("✅ Успешно загружено превью:", image);
+                    } else {
+                        console.error(`❌ Ошибка загрузки изображения (${response.status}): ${image}`);
+                        if (response.status === 403) {
+                            console.error("⛔ Доступ к изображению запрещен (403). Возможно, проблемы с доступом или лимитом.");
+                        } else if (response.status === 404) {
+                            console.error("🔎 Изображение не найдено (404).");
+                        } else {
+                            console.error("⚠️ Неизвестная ошибка при загрузке изображения.");
+                        }
+                    }
+                } catch (error) {
+                    console.error(`❌ Ошибка при загрузке изображения: ${error.message}`);
+                    if (error.message.includes("Failed to fetch")) {
+                        console.error("🌐 Возможно, проблема с CORS или сетью.");
+                    }
+                }
+
+                // Структура попапа
+                const popupContent = `
+                    <div style="text-align: center; padding: 10px;">
+                        <span style="font-size: 12px; color: #555;">
+                            <img src="https://flagsapi.com/${country_code}/flat/16.png" 
+                                 style="vertical-align: middle; margin-right: 5px;" width="16" height="16">
+                            <img src="https://img.icons8.com/color/16/000000/calendar-16.png" 
+                                 style="vertical-align: middle; margin-right: 5px;">${day} | 
+                            <img src="https://img.icons8.com/color/16/000000/calendar-16.png" 
+                                 style="vertical-align: middle; margin-right: 5px;">${month} | 
+                            <img src="https://img.icons8.com/color/16/000000/calendar--v1.png" 
+                                 style="vertical-align: middle; margin-right: 5px;">${year}
+                        </span><br>
+                        <img src="${image}" 
+                             class="popup-image" 
+                             style="width: 200px; height: auto; display: block; margin: 10px auto; border-radius: 8px; border: 1px solid #ccc;" 
+                             alt="Preview">
+                    </div>
+                `;
+
+                layer.bindPopup(popupContent);
+                markers.addLayer(layer);
+                allLayers.push(layer);
+                years.add(String(feature.properties.year));
+            }
+        });
+
+        map.addLayer(markers);
+        pointCount.textContent = allLayers.length;
+
+        // Заполнение селектора годов
+        years.forEach(year => {
+            const option = document.createElement('option');
+            option.value = year;
+            option.text = year;
+            yearSelect.appendChild(option);
+        });
+    });
+
+// === Функция фильтрации ===
+function applyFilter() {
+    const selectedYear = yearSelect.value;
+    const selectedMonth = monthSelect.value;
+    markers.clearLayers();
+    let visibleCount = 0;
+
+    allLayers.forEach(layer => {
+        const { year, month } = layer.feature.properties;
+        if (
+            (selectedYear === 'all' || String(year) === selectedYear) &&
+            (selectedMonth === 'all' || String(month).padStart(2, '0') === selectedMonth)
+        ) {
+            markers.addLayer(layer);
+            visibleCount++;
         }
+    });
 
-        console.log("Инициализация карты...");
-        mapRef.current = L.map('map').setView([20, 0], 2);
+    pointCount.textContent = visibleCount;
+}
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 18,
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(mapRef.current);
+// === Сброс фильтров ===
+function resetFilters() {
+    yearSelect.value = 'all';
+    monthSelect.value = 'all';
+    applyFilter();
+}
 
-        markersRef.current = L.markerClusterGroup();
-
-        fetch('/geojson/photos.geojson')
-            .then((response) => response.json())
-            .then((data) => {
-                const tempYears = new Set();
-                const layers = [];
-
-                L.geoJSON(data, {
-                    onEachFeature: (feature, layer) => {
-                        const { filename, year, month, image } = feature.properties;
-
-                        console.log("Исходная ссылка:", image);
-
-                        // 🟢 Возвращаем логику превью
-                        const imageUrl = generateGoogleDriveThumbnail(image);
-
-                        console.log("Сгенерированная ссылка на превью:", imageUrl);
-
-                        const popupContent = `
-                            <div>
-                                <strong>${filename}</strong><br>
-                                Year: ${year}<br>
-                                Month: ${month}<br>
-                                <img src="${imageUrl}" style="width: 100px; height: auto;" alt="Preview">
-                            </div>
-                        `;
-
-                        layer.bindPopup(popupContent);
-                        markersRef.current.addLayer(layer);
-                        layers.push(layer);
-                        tempYears.add(year);
-                    },
-                });
-
-                setAllLayers(layers);
-                setYears(Array.from(tempYears));
-                mapRef.current.addLayer(markersRef.current);
-            })
-            .catch((error) => {
-                console.error("Ошибка загрузки GeoJSON:", error);
-            });
-
-    }, []);
-
-    const applyFilter = (year, month) => {
-        markersRef.current.clearLayers();
-        let filteredLayers = allLayers;
-
-        if (year !== 'all') {
-            filteredLayers = filteredLayers.filter(layer => layer.feature.properties.year === parseInt(year));
-        }
-
-        if (month !== 'all') {
-            filteredLayers = filteredLayers.filter(layer => String(layer.feature.properties.month).padStart(2, '0') === month);
-        }
-
-        filteredLayers.forEach(layer => markersRef.current.addLayer(layer));
-    };
-
-    return (
-        <>
-            <div style={{
-                position: "absolute",
-                top: "10px",
-                left: "80px",
-                zIndex: 1000,
-                backgroundColor: "white",
-                padding: "10px",
-                borderRadius: "8px",
-                boxShadow: "0 2px 10px rgba(0,0,0,0.2)"
-            }}>
-                <FilterPanel
-                    years={years}
-                    onYearChange={(year) => applyFilter(year, 'all')}
-                    onMonthChange={(month) => applyFilter('all', month)}
-                    onReset={() => applyFilter('all', 'all')}
-                />
-            </div>
-            <div id="map" style={{ height: "100vh", width: "100vw", position: "absolute", top: 0, left: 0 }} />
-        </>
-    );
-};
-
-export default MapComponent;
+// === События изменения фильтров ===
+yearSelect.addEventListener('change', applyFilter);
+monthSelect.addEventListener('change', applyFilter);
