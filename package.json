@@ -1,0 +1,24 @@
+{
+  "name": "photomaps",
+  "version": "1.0.0",
+  "description": "Repo to keep jpgs for Photomaps app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mloktionov/PhotoMaps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mloktionov/PhotoMaps/issues"
+  },
+  "homepage": "https://github.com/mloktionov/PhotoMaps#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "express": "^5.1.0"
+  }
+}

@@ -2,6 +2,7 @@
 const TILE_URL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 const MAX_CONCURRENT_REQUESTS = 5;
+const PLACEHOLDER_IMAGE = 'assets/no_preview_available.png';
 
 // === Границы Китая для пересчета ===
 const isInChina = (lat, lon) => {
@@ -11,8 +12,8 @@ const isInChina = (lat, lon) => {
 // === Пересчет координат для Китая ===
 const transformCoordinates = (lat, lon, countryCode) => {
     if (countryCode === 'CN' && isInChina(lat, lon)) {
-        const deltaLat = 0.0022; // Сдвиг на север
-        const deltaLon = -0.0045; // Сдвиг на запад
+        const deltaLat = 0.0022;
+        const deltaLon = -0.0045;
         return [lat + deltaLat, lon + deltaLon];
     }
     return [lat, lon];
@@ -66,13 +67,18 @@ const getLocation = async (lat, lon) => {
     }
 };
 
+// === Функция для проксирования изображений ===
+const getProxyUrl = (originalUrl) => {
+    return `http://localhost:4000/proxy?url=${encodeURIComponent(originalUrl)}`;
+};
+
 // === Загрузка GeoJSON данных ===
 fetch('./geojson/photos.geojson')
     .then((response) => response.json())
     .then((data) => {
         L.geoJSON(data, {
             onEachFeature: (feature, layer) => {
-                const { image, country_code, year, month, day } = feature.properties;
+                const { image, country_code, year, month, day, fullname, description } = feature.properties;
 
                 // Применяем пересчет координат ТОЛЬКО для Китая
                 let [lat, lon] = transformCoordinates(
@@ -87,6 +93,8 @@ fetch('./geojson/photos.geojson')
                 layer.on('click', async () => {
                     const locationName = await requestLimiter(() => getLocation(lat, lon));
                     const flagUrl = `https://flagsapi.com/${country_code}/flat/16.png`;
+                    const proxyImageUrl = getProxyUrl(image);
+
                     const popupContent = `
                         <div style="text-align: center; padding: 10px;">
                             <img src="${flagUrl}" style="vertical-align: middle; margin-right: 5px;" width="16" height="16">
@@ -96,8 +104,11 @@ fetch('./geojson/photos.geojson')
                             <img src="https://img.icons8.com/color/16/000000/calendar-16.png" 
                                 style="vertical-align: middle; margin-right: 5px;"> ${month} |
                             <img src="https://img.icons8.com/color/16/000000/calendar--v1.png" 
-                                style="vertical-align: middle; margin-right: 5px;"> ${year} 
-                            <img src="${image}" class="popup-image" style="width: 200px; height: auto; margin: 10px 0;">
+                                style="vertical-align: middle; margin-right: 5px;"> ${year} <br>
+                            <img src="${proxyImageUrl}" class="popup-image" style="width: 200px; height: auto; margin: 10px 0;" 
+                                onerror="this.src='${PLACEHOLDER_IMAGE}'">
+                            ${description ? `<p style="font-size: 12px;">${description}</p>` : ""}
+                            <a href="${fullname}" target="_blank">🔗 Open Full Image</a><br>
                         </div>
                     `;
                     layer.bindPopup(popupContent).openPopup();
