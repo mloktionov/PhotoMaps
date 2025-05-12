@@ -13,3 +13,4 @@ photoslibrary_v1_discovery.json
 token.json
 credentials.json
 client-secrets.json
+node_modules/
