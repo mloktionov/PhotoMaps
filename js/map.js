@@ -52,11 +52,14 @@ const processQueue = () => {
 // === Функция получения локации ===
 const getLocation = async (lat, lon) => {
     const url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}`;
+    console.log(`🌐 Запрос на получение локации: ${url}`);
     try {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            return data.address.city || data.address.town || data.address.village || "Unknown Location";
+            const location = data.address.city || data.address.town || data.address.village || "Unknown Location";
+            console.log(`✅ Локация получена: ${location}`);
+            return location;
         } else {
             console.error("Ошибка при получении данных локации:", response.status);
             return "Unknown Location";
@@ -69,7 +72,9 @@ const getLocation = async (lat, lon) => {
 
 // === Функция для проксирования изображений ===
 const getProxyUrl = (originalUrl) => {
-    return `http://localhost:4000/proxy?url=${encodeURIComponent(originalUrl)}`;
+    const proxyUrl = `http://localhost:4000/proxy?url=${encodeURIComponent(originalUrl)}`;
+    console.log(`🔄 Прокси-запрос: ${proxyUrl}`);
+    return proxyUrl;
 };
 
 // === Загрузка GeoJSON данных ===
@@ -91,9 +96,12 @@ fetch('./geojson/photos.geojson')
 
                 // При клике на маркер
                 layer.on('click', async () => {
+                    console.log(`🖱️ Клик по маркеру: ${fullname}`);
                     const locationName = await requestLimiter(() => getLocation(lat, lon));
                     const flagUrl = `https://flagsapi.com/${country_code}/flat/16.png`;
                     const proxyImageUrl = getProxyUrl(image);
+
+                    console.log(`🔍 Попытка загрузить изображение: ${proxyImageUrl}`);
 
                     const popupContent = `
                         <div style="text-align: center; padding: 10px;">
