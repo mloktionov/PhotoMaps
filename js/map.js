@@ -59,16 +59,16 @@ fetch('./geojson/photos.geojson')
           const proxyImageUrl = getProxyUrl(image);
           const shortDesc = description ? description.split(" ").slice(0, 5).join(" ") + '...' : '';
 
-          const popupContent = `
-            <div style="text-align: center; padding: 10px;">
-              <img src="${flagUrl}" width="16" height="16" style="margin-right: 5px;">
-              <strong>${locationName}</strong><br>
-              📅 ${day}.${month}.${year}<br>
-              <img src="${proxyImageUrl}" class="popup-image" style="width: 200px; height: auto; margin: 10px 0;" onerror="this.src='${PLACEHOLDER_IMAGE}'">
-              ${description ? `<p style="font-size: 12px;">${shortDesc} <a href="#" onclick="showFullDescription('${description.replace(/'/g, "\\'")}', '${getProxyUrl(fullname)}')">ещё</a></p>` : ""}
-              <a href="${fullname}" target="_blank">🔗 Open Full Image</a>
-            </div>`;
-
+            const popupContent = `
+              <div style="text-align: center; padding: 10px;">
+                <img src="${flagUrl}" width="16" height="16" style="margin-right: 5px;">
+                <strong>${locationName}</strong><br>
+                📅 ${day}.${month}.${year}<br>
+                <img src="${proxyImageUrl}" class="popup-image" style="width: 200px; height: auto; margin: 10px 0;" onerror="this.src='${PLACEHOLDER_IMAGE}'">
+                ${description ? `<p style="font-size: 12px;">${shortDesc} <a href="#" class="more-link" data-full="${encodeURIComponent(description)}" data-img="${getProxyUrl(fullname)}">ещё</a></p>` : ""}
+                <a href="${fullname}" target="_blank">🔗 Open Full Image</a>
+              </div>`;
+            
           layer.bindPopup(popupContent).openPopup();
         });
 
@@ -79,24 +79,29 @@ fetch('./geojson/photos.geojson')
     map.addLayer(markers);
   });
 
-// === Обработчик модального окна ===
 document.addEventListener("DOMContentLoaded", () => {
   const modal = document.getElementById("modal");
   const modalText = document.getElementById("modal-text");
   const modalImg = document.getElementById("modal-image");
   const closeBtn = document.getElementById("modal-close");
 
-  window.showFullDescription = function (desc, imageUrl) {
-    modalText.textContent = desc;
-    modalImg.src = imageUrl;
-    modal.style.display = "block";
-  };
-
+  // — закрытие по кнопке ✖
   closeBtn.onclick = () => (modal.style.display = "none");
 
+  // — закрытие по клику вне модалки
   window.addEventListener("click", (e) => {
     if (e.target.id === "modal") {
-      e.target.style.display = "none";
+      modal.style.display = "none";
+    }
+  });
+
+  // === ✅ Делегированный обработчик ссылки "ещё"
+  document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("more-link")) {
+      e.preventDefault();
+      const desc = decodeURIComponent(e.target.dataset.full || "");
+      const img = e.target.dataset.img || "";
+      showFullDescription(desc, img);
     }
   });
 });
