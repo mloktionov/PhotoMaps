@@ -27,12 +27,15 @@
       border-radius: 8px;
       width: 90%;
       max-width: 800px;
+      max-height: 80vh;             /* 👈 ограничение по высоте */
+      overflow-y: auto;             /* 👈 вертикальный скролл */
+      word-break: break-word;       /* 👈 если в описании нет пробелов */
       font-family: sans-serif;
       color: #222;
       position: relative;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     }
-
+      
     .modal-close {
       position: absolute;
       top: 10px;
@@ -56,6 +59,11 @@
       display: block;
       margin-bottom: 10px;
     }
+      
+    #modal-text {
+  white-space: pre-line;  /* сохраняет переносы строк и убирает лишние пробелы */
+    }
+            
   </style>
 </head>
 <body>
@@ -105,11 +113,20 @@
     const closeBtn = document.getElementById("modal-close");
 
     window.showFullDescription = function (desc, imageUrl) {
-      modalText.textContent = desc || "No Description";
+      const isHTML = /<\/?[a-z][\s\S]*>/i.test(desc); // простая проверка на наличие HTML-тегов
+
+      if (isHTML) {
+        // безопасно отобразить HTML
+        modalText.innerHTML = desc;
+      } else {
+        // отобразить как обычный текст с переводами строк
+        modalText.textContent = desc?.replace(/\n/g, '\n') || "No Description";
+      }
+
       modalImg.src = imageUrl;
       modal.style.display = "block";
     };
-
+      
     closeBtn.onclick = () => (modal.style.display = "none");
 
     window.onclick = (e) => {
